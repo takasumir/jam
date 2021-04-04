@@ -6,3 +6,4 @@ theme = "ananke"
 [params]
 background_color_class = "bg-black"
 featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+Description = "ブログ初心者が最近流行りのJamstackでブログを作ります！Hugo, Git, Netlifyの登録、設定、使い方などについて書いていきます。"
