@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>あいう</title>
-    <link>http://example.org/</link>
-    <description>Recent content on あいう</description>
+    <title>初心者Jamstack</title>
+    <link>https://jamblog.netlify.app/</link>
+    <description>Recent content on 初心者Jamstack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 04 Apr 2021 12:46:20 +0900</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Apr 2021 12:46:20 +0900</lastBuildDate><atom:link href="https://jamblog.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <link>https://jamblog.netlify.app/posts/my-first-post/</link>
       <pubDate>Sun, 04 Apr 2021 12:46:20 +0900</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
+      <guid>https://jamblog.netlify.app/posts/my-first-post/</guid>
       <description></description>
     </item>
     
