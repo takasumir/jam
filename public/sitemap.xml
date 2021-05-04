@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jamblog.netlify.app/posts/</loc>
-    <lastmod>2021-04-04T12:46:20+09:00</lastmod>
+    <loc>https://jamblog.netlify.app/posts/quick-start/</loc>
+    <lastmod>2021-05-04T20:09:18+09:00</lastmod>
   </url><url>
-    <loc>https://jamblog.netlify.app/posts/my-first-post/</loc>
-    <lastmod>2021-04-04T12:46:20+09:00</lastmod>
+    <loc>https://jamblog.netlify.app/posts/</loc>
+    <lastmod>2021-05-04T20:09:18+09:00</lastmod>
   </url><url>
     <loc>https://jamblog.netlify.app/</loc>
+    <lastmod>2021-05-04T20:09:18+09:00</lastmod>
+  </url><url>
+    <loc>https://jamblog.netlify.app/posts/my-first-post/</loc>
     <lastmod>2021-04-04T12:46:20+09:00</lastmod>
   </url><url>
     <loc>https://jamblog.netlify.app/categories/</loc>

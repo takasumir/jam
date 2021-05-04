@@ -6,7 +6,31 @@
     <description>Recent content in Posts on 初心者Jamstack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 04 Apr 2021 12:46:20 +0900</lastBuildDate><atom:link href="https://jamblog.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 May 2021 20:09:18 +0900</lastBuildDate><atom:link href="https://jamblog.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo&#43;NetlifyでJamstackブログの作り方 (1)事前準備</title>
+      <link>https://jamblog.netlify.app/posts/quick-start/</link>
+      <pubDate>Tue, 04 May 2021 20:09:18 +0900</pubDate>
+      
+      <guid>https://jamblog.netlify.app/posts/quick-start/</guid>
+      <description>今までGoogleのサービス、Bloggerでブログを書いていましたがカスタマイズに制約を感じ、レスポンスも遅くGoogleのUX指標Core Web Vitalはかなり低い状態でした。Blogger自体もここ数年ほとんど更新されていなくてBloggerのテンプレート書式を覚えてガリガリカスタマイズするのも何だかなあと思っていました。
+そこで最近流行りそうなJamstackでブログを作ってみようと思い、まずはJamstackでブログを作るまでのやり方を記事にしてみます。
+静的サイトジェネレーターとしてHugoを使い、Gitに記事をアップロードしてNetlifyでホスティングします。
+Hugoのインストール Hugoの公式サイトから入手。 https://gohugo.io/getting-started/installing/
+Windows用のバイナリをダウンロードできますが、パッケージマネージャ Chocolateryを使ってインストールしてみました。
+管理者モードのPowershellで下記コマンドを実行します。
+&amp;gt; choco install hugo -confirm Chocolateryはhttps://community.chocolatey.org/を参照ください。
+GitHub Desktopのインストール https://desktop.github.com/インストールしてみたものの、後述するHugoテーマのダウンロード でsubmoule の追加方法が分からず、結局GitHub Desktopは使わず次のGitをイ ンストールしました。
+Gitのインストール Github Desktopでうまくいかず、こちらを入手しインストールしました。 https://git-scm.com/downloads
+Webサイトを作ってみる https://gohugo.io/getting-started/quick-start/ を参考にやってみました。以下、ほぼこのQuick startガイドの手順通りです。
+適当なフォルダを作り、Powershellで下記コマンドを実行します。（注：サイト名quickstartは適当に名前変えてください）
+&amp;gt; hugo new site quickstart カレントディレクトリ下に quickstart フォルダが作成され、その下にこんなかんじでフォルダツリーが作成されます。
+あと3ステップやることがあるとのメッセージが出てきました。
+ テーマのダウンロードと追加 コンテンツを追加 ウェブサーバー起動  テーマのダウンロードと追加 WindowsスタートメニューからGit Bashを起動。先程作成したquickstartフォ ルダに移動。Git BashじゃなくてPowershellからでもOKと思います。
+最後の1行は、テーマのインストールで ananke というテーマを取ってきています。
+$ cd quickstart $ git init $ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke Git Bashで下記コマンドを実行してconfig.tomlに ananke テーマを登録します。</description>
+    </item>
+    
     <item>
       <title>初めての投稿</title>
       <link>https://jamblog.netlify.app/posts/my-first-post/</link>
