@@ -9,3 +9,4 @@ featured_image = "/images/gohugo-default-sample-hero-image.jpg"
 Description = "ブログ初心者が最近流行りのJamstackでブログを作ります！Hugo, Git, Netlifyの登録、設定、使い方などについて書いていきます。"
 body_classes = "avenir bg-near-white"
 post_content_classes = "avenir bg-near-white"
+custom_css = ["css/custom.css"]
