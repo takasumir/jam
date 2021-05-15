@@ -87,7 +87,7 @@ Webサイトを作ってみる https://gohugo.io/getting-started/quick-start/ �
 最後の1行は、テーマのインストールで ananke というテーマを取ってきています。
 $ cd quickstart $ git init $ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke Git Bashで下記コマンドを実行してconfig.tomlに ananke テーマを登録します。"><meta itemprop="datePublished" content="2021-05-04T20:09:18&#43;09:00" />
 <meta itemprop="dateModified" content="2021-05-04T20:09:18&#43;09:00" />
-<meta itemprop="wordCount" content="145">
+<meta itemprop="wordCount" content="163">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo&#43;NetlifyでJamstackブログの作り方 (1)事前準備"/>
 <meta name="twitter:description" content="今までGoogleのサービス、Bloggerでブログを書いていましたがカスタマイズに制約を感じ、レスポンスも遅くGoogleのUX指標Core Web Vitalはかなり低い状態でした。Blogger自体もここ数年ほとんど更新されていなくてBloggerのテンプレート書式を覚えてガリガリカスタマイズするのも何だかなあと思っていました。
@@ -212,8 +212,8 @@ $ cd quickstart $ git init $ git submodule add https://github.com/theNewDynamic/
 <p>Windows用のバイナリをダウンロードできますが、パッケージマネージャ
 Chocolateryを使ってインストールしてみました。</p>
 <p>管理者モードのPowershellで下記コマンドを実行します。</p>
-<pre><code>&gt; choco install hugo -confirm
-</code></pre><p>Chocolateryは<a href="https://community.chocolatey.org/" title="Chocolatery">https://community.chocolatey.org/</a>を参照ください。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">&gt; choco install hugo -confirm
+</code></pre></div><p>Chocolateryは<a href="https://community.chocolatey.org/" title="Chocolatery">https://community.chocolatey.org/</a>を参照ください。</p>
 <h2 id="github-desktopのインストール">GitHub Desktopのインストール</h2>
 <p><a href="https://desktop.github.com/" title="Github
 Desktop">https://desktop.github.com/</a>インストールしてみたものの、後述するHugoテーマのダウンロード
@@ -226,8 +226,8 @@ Desktop">https://desktop.github.com/</a>インストールしてみたものの�
 <p><a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a>
 を参考にやってみました。以下、ほぼこのQuick startガイドの手順通りです。</p>
 <p>適当なフォルダを作り、Powershellで下記コマンドを実行します。（注：サイト名quickstartは適当に名前変えてください）</p>
-<pre><code>&gt; hugo new site quickstart
-</code></pre><p>カレントディレクトリ下に quickstart フォルダが作成され、その下にこんなかんじでフォルダツリーが作成されます。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">&gt; hugo new site quickstart
+</code></pre></div><p>カレントディレクトリ下に quickstart フォルダが作成され、その下にこんなかんじでフォルダツリーが作成されます。</p>
 <p><img src="/image/foldertree.webp" alt="フォルダツリー"></p>
 <p>あと3ステップやることがあるとのメッセージが出てきました。</p>
 <ol>
@@ -239,22 +239,31 @@ Desktop">https://desktop.github.com/</a>インストールしてみたものの�
 <p>WindowsスタートメニューからGit Bashを起動。先程作成したquickstartフォ
 ルダに移動。Git BashじゃなくてPowershellからでもOKと思います。</p>
 <p>最後の1行は、テーマのインストールで ananke というテーマを取ってきています。</p>
-<pre><code>$ cd quickstart
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ cd quickstart
 $ git init
 $ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
-</code></pre><p>Git Bashで下記コマンドを実行してconfig.tomlに ananke テーマを登録します。</p>
-<pre><code>echo theme = \&quot;ananke\&quot; &gt;&gt; config.toml
-</code></pre><p>単に「theme = &ldquo;anake&rdquo;」という行をメモ帳などでconfig.tomlに追加してもい
+</code></pre></div><p>Git Bashで下記コマンドを実行してconfig.tomlに ananke テーマを登録します。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ echo theme <span style="color:#f92672">=</span> <span style="color:#ae81ff">\&#34;</span>ananke<span style="color:#ae81ff">\&#34;</span> &gt;&gt; config.toml
+</code></pre></div><p>単に「theme = &ldquo;anake&rdquo;」という行をメモ帳などでconfig.tomlに追加してもい
 いです。</p>
 <h2 id="コンテンツの追加">コンテンツの追加</h2>
 <p>PowershellかGit Bashで下記コマンドを実行。</p>
-<pre><code>hugo new posts/my-first-post.md
-</code></pre><p>postsというフォルダと、その中にmy-first-post.mdというファイルができま
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hugo new posts/my-first-post.md
+</code></pre></div><p>postsというフォルダと、その中にmy-first-post.mdというファイルができま
 す。</p>
 <p>my-first-post.mdを編集してみます。</p>
+<pre><code>---
+title: &quot;初めての投稿&quot;
+date: 2021-04-04T12:46:20+09:00
+draft: true
+summary: &quot;ブログ初心者が最近流行りのJamstackでブログを作ります！初めてのテスト投稿です。&quot;
+---
+
+ブログ初心者が最近流行りのJamstackでブログを作ります！Hugo, Git, Netlifyの登録、設定、使い方などについて書いていきます。
+</code></pre><p><code>draft: true</code>は、この投稿がドラフト状態ということで、<code>hugo</code>コマンドに<code>-D</code>オプションを付けるとドラフト記事が表示されます。</p>
 <h2 id="ローカルサーバの起動">ローカルサーバの起動</h2>
-<p>hugo server -D</p>
-<p>Google Chromeで http://localhost:1313/ にアクセスすると、記事が表示さ
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hugo server -D
+</code></pre></div><p>Google Chromeで http://localhost:1313/ にアクセスすると、記事が表示さ
 れました！</p>
 <h2 id="configtomlの編集">config.tomlの編集</h2>
 <p>languageCode を &ldquo;en-US&rdquo; から &ldquo;ja-JP&rdquo; に変更。</p>
@@ -262,13 +271,13 @@ $ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git the
 <p>baseURL は、アップロードする自分のサイトのURLですがとりあえずローカル
 で試す分には必要ないので &ldquo;<a href="http://example.org/%22">http://example.org/&quot;</a> のままにしています。</p>
 <h2 id="ページの生成">ページの生成</h2>
-<pre><code>hugo -D
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo -D
 
-Error: Error copying static files: open C:\Users\takas\Documents\Hugo\quickstart\public\images\gohugo-default-sample-hero-image.jpg: Access is denied.
-</code></pre><p>あれれ、エラーが出てしまいました。imagesフォルダは空で
+Error: Error copying static files: open C:<span style="color:#ae81ff">\U</span>sers<span style="color:#ae81ff">\*</span>***<span style="color:#ae81ff">\D</span>ocuments<span style="color:#ae81ff">\H</span>ugo<span style="color:#ae81ff">\q</span>uickstart<span style="color:#ae81ff">\p</span>ublic<span style="color:#ae81ff">\i</span>mages<span style="color:#ae81ff">\g</span>ohugo-default-sample-hero-image.jpg: Access is denied.
+</code></pre></div><p>あれれ、エラーが出てしまいました。imagesフォルダは空で
 gohugo-sample-hero-image.jpgなんてありません。</p>
-<p>C:\Users\takas\Documents\Hugo\quickstart\themes\ananke\static\imagesに
-同名のJPGファイルがあったのでとりあえず\public\imagesにコピーしてみま
+<p><code>C:\Users\****\Documents\Hugo\quickstart\themes\ananke\static\images</code>に
+同名のJPGファイルがあったのでとりあえず<code>\public\images</code>にコピーしてみま
 す。</p>
 <p>もう一度 hugo -D するとうまくいきました。</p>
 <p>http://localhost:1313/ をまた表示します。先程作った記事へのリンクが表

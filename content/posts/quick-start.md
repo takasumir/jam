@@ -24,7 +24,7 @@ Chocolateryを使ってインストールしてみました。
 
 管理者モードのPowershellで下記コマンドを実行します。
 
-```
+```powershell
 > choco install hugo -confirm
 ```
 
@@ -50,7 +50,7 @@ Github Desktopでうまくいかず、こちらを入手しインストールし
 
 適当なフォルダを作り、Powershellで下記コマンドを実行します。（注：サイト名quickstartは適当に名前変えてください）
 
-```
+```powershell
 > hugo new site quickstart
 ```
 
@@ -71,7 +71,7 @@ WindowsスタートメニューからGit Bashを起動。先程作成したquick
 
 最後の1行は、テーマのインストールで ananke というテーマを取ってきています。
 
-```
+```sh
 $ cd quickstart
 $ git init
 $ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
@@ -79,8 +79,8 @@ $ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git the
 
 Git Bashで下記コマンドを実行してconfig.tomlに ananke テーマを登録します。
 
-```
-echo theme = \"ananke\" >> config.toml
+```sh
+$ echo theme = \"ananke\" >> config.toml
 ```
 
 単に「theme = "anake"」という行をメモ帳などでconfig.tomlに追加してもい
@@ -90,8 +90,8 @@ echo theme = \"ananke\" >> config.toml
 
 PowershellかGit Bashで下記コマンドを実行。
 
-```
-hugo new posts/my-first-post.md
+```sh
+$ hugo new posts/my-first-post.md
 ```
 
 postsというフォルダと、その中にmy-first-post.mdというファイルができま
@@ -99,9 +99,25 @@ postsというフォルダと、その中にmy-first-post.mdというファイ�
 
 my-first-post.mdを編集してみます。
 
+```
+---
+title: "初めての投稿"
+date: 2021-04-04T12:46:20+09:00
+draft: true
+summary: "ブログ初心者が最近流行りのJamstackでブログを作ります！初めてのテスト投稿です。"
+---
+
+ブログ初心者が最近流行りのJamstackでブログを作ります！Hugo, Git, Netlifyの登録、設定、使い方などについて書いていきます。
+```
+
+`draft: true`は、この投稿がドラフト状態ということで、`hugo`コマンドに`-D`オプションを付けるとドラフト記事が表示されます。
+
+
 ## ローカルサーバの起動
 
-hugo server -D
+```sh
+$ hugo server -D
+```
 
 Google Chromeで http://localhost:1313/ にアクセスすると、記事が表示さ
 れました！
@@ -117,17 +133,17 @@ baseURL は、アップロードする自分のサイトのURLですがとりあ
 
 ## ページの生成
 
-```
+```sh
 hugo -D
 
-Error: Error copying static files: open C:\Users\takas\Documents\Hugo\quickstart\public\images\gohugo-default-sample-hero-image.jpg: Access is denied.
+Error: Error copying static files: open C:\Users\****\Documents\Hugo\quickstart\public\images\gohugo-default-sample-hero-image.jpg: Access is denied.
 ```
 
 あれれ、エラーが出てしまいました。imagesフォルダは空で
 gohugo-sample-hero-image.jpgなんてありません。
 
-C:\Users\takas\Documents\Hugo\quickstart\themes\ananke\static\imagesに
-同名のJPGファイルがあったのでとりあえず\public\imagesにコピーしてみま
+`C:\Users\****\Documents\Hugo\quickstart\themes\ananke\static\images`に
+同名のJPGファイルがあったのでとりあえず`\public\images`にコピーしてみま
 す。
 
 もう一度 hugo -D するとうまくいきました。

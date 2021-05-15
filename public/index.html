@@ -136,6 +136,43 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="https://jamblog.netlify.app/posts/quick-start-2/" class="color-inherit dim link">
+            Hugo&#43;NetlifyでJamstackブログの作り方 (2) Githubへアップロード
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          Hugo+NetlifyでJamstackブログの作り方 (1)事前準備でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。次はGithubへのアップロードです。
+Githubのアカウント登録 GitHubのアカウントを持っていない場合は、GitHubへアクセスして右上のボタンからSign upします。
+レポジトリの作成 アカウントを登録したら右上の＋マークからNew Repositoryで新しいレポジトリを作成します。
+quickstartという名前を入れてレポジトリを作成します。
+レポジトリが作成できました。
+レポジトリのURL https://github.com/ユーザー名/quickstart.git は後で使うのでコピーしておきましょう。
+Githubへアップロード Git bashを起動し、quickstartフォルダで下記コマンドを実行しローカルレポジトリにファイルを追加(add)します。
+$ git add . ファイルを追加したら次はコミット(commit)します。
+$ git commit -m &#39;my first commit&#39; ローカルレポジトリからファイルをプッシュ(push)する先のリモートレポジトリを設定します。リモートレポジトリは先ほどGitHubで作成したURLを入れます。
+$ git remote add origin https://github.com/ユーザー名/quickstart.git リモートレポジトリが正しく追加されたか確認します。
+$ git remote -v 最後にリモートレポジトリにローカルファイルをプッシュ(push)します。origin、masterなどbranchの概念が出てきますがここではとりあえずmasterブランチにアップロードします。別のbranch名を作成してNetlifyでbranchを指定することもできます。
+$ git push origin master ファイルがアップロードされました。
+まとめ Hugoで記事を作成した後のGithubへのアップロードについて説明しました。gitのコマンドは慣れないと難しく感じますが、ローカルレポジトリを変更したら add -&gt; commit -&gt; push の流れを掴んでおけば良いでしょう。
+次はようやくGithubへアップロードしたファイルをもとにNetlifyでブログを公開する方法を説明します。
+        </div>
+          <a href="https://jamblog.netlify.app/posts/quick-start-2/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="https://jamblog.netlify.app/posts/quick-start/" class="color-inherit dim link">
             Hugo&#43;NetlifyでJamstackブログの作り方 (1)事前準備
             </a>

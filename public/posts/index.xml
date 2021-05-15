@@ -6,7 +6,29 @@
     <description>Recent content in Posts on 初心者Jamstack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 04 May 2021 20:09:18 +0900</lastBuildDate><atom:link href="https://jamblog.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 May 2021 09:47:28 +0900</lastBuildDate><atom:link href="https://jamblog.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo&#43;NetlifyでJamstackブログの作り方 (2) Githubへアップロード</title>
+      <link>https://jamblog.netlify.app/posts/quick-start-2/</link>
+      <pubDate>Sat, 15 May 2021 09:47:28 +0900</pubDate>
+      
+      <guid>https://jamblog.netlify.app/posts/quick-start-2/</guid>
+      <description>Hugo+NetlifyでJamstackブログの作り方 (1)事前準備でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。次はGithubへのアップロードです。
+Githubのアカウント登録 GitHubのアカウントを持っていない場合は、GitHubへアクセスして右上のボタンからSign upします。
+レポジトリの作成 アカウントを登録したら右上の＋マークからNew Repositoryで新しいレポジトリを作成します。
+quickstartという名前を入れてレポジトリを作成します。
+レポジトリが作成できました。
+レポジトリのURL https://github.com/ユーザー名/quickstart.git は後で使うのでコピーしておきましょう。
+Githubへアップロード Git bashを起動し、quickstartフォルダで下記コマンドを実行しローカルレポジトリにファイルを追加(add)します。
+$ git add . ファイルを追加したら次はコミット(commit)します。
+$ git commit -m &amp;#39;my first commit&amp;#39; ローカルレポジトリからファイルをプッシュ(push)する先のリモートレポジトリを設定します。リモートレポジトリは先ほどGitHubで作成したURLを入れます。
+$ git remote add origin https://github.com/ユーザー名/quickstart.git リモートレポジトリが正しく追加されたか確認します。
+$ git remote -v 最後にリモートレポジトリにローカルファイルをプッシュ(push)します。origin、masterなどbranchの概念が出てきますがここではとりあえずmasterブランチにアップロードします。別のbranch名を作成してNetlifyでbranchを指定することもできます。
+$ git push origin master ファイルがアップロードされました。
+まとめ Hugoで記事を作成した後のGithubへのアップロードについて説明しました。gitのコマンドは慣れないと難しく感じますが、ローカルレポジトリを変更したら add -&amp;gt; commit -&amp;gt; push の流れを掴んでおけば良いでしょう。
+次はようやくGithubへアップロードしたファイルをもとにNetlifyでブログを公開する方法を説明します。</description>
+    </item>
+    
     <item>
       <title>Hugo&#43;NetlifyでJamstackブログの作り方 (1)事前準備</title>
       <link>https://jamblog.netlify.app/posts/quick-start/</link>
