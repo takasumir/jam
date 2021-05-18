@@ -1,12 +1,12 @@
 ---
-title: "Hugo+NetlifyでJamstackブログの作り方 (2) Githubへアップロード"
+title: "Hugo+NetlifyでJamstackブログの作り方 (2) GitHubへアップロード"
 date: 2021-05-15T09:47:28+09:00
 draft: false
 ---
 
-[Hugo+NetlifyでJamstackブログの作り方 (1)事前準備](/posts/quick-start/)でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。次はGithubへのアップロードです。
+[Hugo+NetlifyでJamstackブログの作り方 (1)事前準備](/posts/quick-start/)でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。次はGitHubへのアップロードです。
 
-## Githubのアカウント登録
+## GitHubのアカウント登録
 
 GitHubのアカウントを持っていない場合は、[GitHub](https://github.com/)へアクセスして右上のボタンからSign upします。
 
@@ -28,7 +28,7 @@ quickstartという名前を入れてレポジトリを作成します。
 
 レポジトリのURL `https://github.com/ユーザー名/quickstart.git` は後で使うのでコピーしておきましょう。
 
-## Githubへアップロード
+## GitHubへアップロード
 
 Git bashを起動し、quickstartフォルダで下記コマンドを実行しローカルレポジトリにファイルを追加(add)します。
 
@@ -66,6 +66,6 @@ $ git push origin master
 
 ## まとめ
 
-Hugoで記事を作成した後のGithubへのアップロードについて説明しました。gitのコマンドは慣れないと難しく感じますが、ローカルレポジトリを変更したら add -> commit -> push の流れを掴んでおけば良いでしょう。
+Hugoで記事を作成した後のGitHubへのアップロードについて説明しました。gitのコマンドは慣れないと難しく感じますが、ローカルレポジトリを変更したら add -> commit -> push の流れを掴んでおけば良いでしょう。
 
-次はようやくGithubへアップロードしたファイルをもとにNetlifyでブログを公開する方法を説明します。
+次はようやくGitHubへアップロードしたファイルをもとにNetlifyでブログを公開する方法を説明します。

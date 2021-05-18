@@ -32,14 +32,14 @@ Chocolateryは[https://community.chocolatey.org/](https://community.chocolatey.o
 
 ## GitHub Desktopのインストール
 
-[https://desktop.github.com/](https://desktop.github.com/ "Github
+[https://desktop.github.com/](https://desktop.github.com/ "GitHub
 Desktop")インストールしてみたものの、後述するHugoテーマのダウンロード
 でsubmoule の追加方法が分からず、結局GitHub Desktopは使わず次のGitをイ
 ンストールしました。
 
 ## Gitのインストール
 
-Github Desktopでうまくいかず、こちらを入手しインストールしました。
+GitHub Desktopでうまくいかず、こちらを入手しインストールしました。
 [https://git-scm.com/downloads](https://git-scm.com/downloads "Git")
 
 
@@ -143,8 +143,8 @@ Error: Error copying static files: open C:\Users\****\Documents\Hugo\quickstart\
 gohugo-sample-hero-image.jpgなんてありません。
 
 `C:\Users\****\Documents\Hugo\quickstart\themes\ananke\static\images`に
-同名のJPGファイルがあったのでとりあえず`\public\images`にコピーしてみま
-す。
+同名のJPGファイルがあったのでとりあえず`quickstart\public\images`にコピーしてみま
+す。`quickstart\static\images`にもコピーしました。
 
 もう一度 hugo -D するとうまくいきました。
 

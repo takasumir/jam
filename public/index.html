@@ -136,25 +136,36 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://jamblog.netlify.app/posts/quick-start-2/" class="color-inherit dim link">
-            Hugo&#43;NetlifyでJamstackブログの作り方 (2) Githubへアップロード
+          <a href="https://jamblog.netlify.app/posts/quick-start-3/" class="color-inherit dim link">
+            Hugo&#43;NetlifyでJamstackブログの作り方 (3) Netlifyでホスティング
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Hugo+NetlifyでJamstackブログの作り方 (1)事前準備でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。次はGithubへのアップロードです。
-Githubのアカウント登録 GitHubのアカウントを持っていない場合は、GitHubへアクセスして右上のボタンからSign upします。
-レポジトリの作成 アカウントを登録したら右上の＋マークからNew Repositoryで新しいレポジトリを作成します。
-quickstartという名前を入れてレポジトリを作成します。
-レポジトリが作成できました。
-レポジトリのURL https://github.com/ユーザー名/quickstart.git は後で使うのでコピーしておきましょう。
-Githubへアップロード Git bashを起動し、quickstartフォルダで下記コマンドを実行しローカルレポジトリにファイルを追加(add)します。
-$ git add . ファイルを追加したら次はコミット(commit)します。
-$ git commit -m &#39;my first commit&#39; ローカルレポジトリからファイルをプッシュ(push)する先のリモートレポジトリを設定します。リモートレポジトリは先ほどGitHubで作成したURLを入れます。
-$ git remote add origin https://github.com/ユーザー名/quickstart.git リモートレポジトリが正しく追加されたか確認します。
-$ git remote -v 最後にリモートレポジトリにローカルファイルをプッシュ(push)します。origin、masterなどbranchの概念が出てきますがここではとりあえずmasterブランチにアップロードします。別のbranch名を作成してNetlifyでbranchを指定することもできます。
-$ git push origin master ファイルがアップロードされました。
-まとめ Hugoで記事を作成した後のGithubへのアップロードについて説明しました。gitのコマンドは慣れないと難しく感じますが、ローカルレポジトリを変更したら add -&gt; commit -&gt; push の流れを掴んでおけば良いでしょう。
-次はようやくGithubへアップロードしたファイルをもとにNetlifyでブログを公開する方法を説明します。
+          Hugoでブログ記事を作成しGitHubへアップロードしました。最後にNetlifyでブログをホスティングします。 記事をドラフト(draft
+        </div>
+          <a href="https://jamblog.netlify.app/posts/quick-start-3/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="https://jamblog.netlify.app/posts/quick-start-2/" class="color-inherit dim link">
+            Hugo&#43;NetlifyでJamstackブログの作り方 (2) GitHubへアップロード
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          Hugo+NetlifyでJamstackブログの作り方 (1)事前準備でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。
         </div>
           <a href="https://jamblog.netlify.app/posts/quick-start-2/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
@@ -178,22 +189,7 @@ $ git push origin master ファイルがアップロードされました。
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          今までGoogleのサービス、Bloggerでブログを書いていましたがカスタマイズに制約を感じ、レスポンスも遅くGoogleのUX指標Core Web Vitalはかなり低い状態でした。Blogger自体もここ数年ほとんど更新されていなくてBloggerのテンプレート書式を覚えてガリガリカスタマイズするのも何だかなあと思っていました。
-そこで最近流行りそうなJamstackでブログを作ってみようと思い、まずはJamstackでブログを作るまでのやり方を記事にしてみます。
-静的サイトジェネレーターとしてHugoを使い、Gitに記事をアップロードしてNetlifyでホスティングします。
-Hugoのインストール Hugoの公式サイトから入手。 https://gohugo.io/getting-started/installing/
-Windows用のバイナリをダウンロードできますが、パッケージマネージャ Chocolateryを使ってインストールしてみました。
-管理者モードのPowershellで下記コマンドを実行します。
-&gt; choco install hugo -confirm Chocolateryはhttps://community.chocolatey.org/を参照ください。
-GitHub Desktopのインストール https://desktop.github.com/インストールしてみたものの、後述するHugoテーマのダウンロード でsubmoule の追加方法が分からず、結局GitHub Desktopは使わず次のGitをイ ンストールしました。
-Gitのインストール Github Desktopでうまくいかず、こちらを入手しインストールしました。 https://git-scm.com/downloads
-Webサイトを作ってみる https://gohugo.io/getting-started/quick-start/ を参考にやってみました。以下、ほぼこのQuick startガイドの手順通りです。
-適当なフォルダを作り、Powershellで下記コマンドを実行します。（注：サイト名quickstartは適当に名前変えてください）
-&gt; hugo new site quickstart カレントディレクトリ下に quickstart フォルダが作成され、その下にこんなかんじでフォルダツリーが作成されます。
-あと3ステップやることがあるとのメッセージが出てきました。
- テーマのダウンロードと追加 コンテンツを追加 ウェブサーバー起動  テーマのダウンロードと追加 WindowsスタートメニューからGit Bashを起動。先程作成したquickstartフォ ルダに移動。Git BashじゃなくてPowershellからでもOKと思います。
-最後の1行は、テーマのインストールで ananke というテーマを取ってきています。
-$ cd quickstart $ git init $ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke Git Bashで下記コマンドを実行してconfig.tomlに ananke テーマを登録します。
+          今までGoogleのサービス、Bloggerでブログを書いていましたがカスタマイズに制約を感じ、レスポンスも遅くGoogleのUX指標Cor
         </div>
           <a href="https://jamblog.netlify.app/posts/quick-start/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
@@ -204,32 +200,25 @@ $ cd quickstart $ git init $ git submodule add https://github.com/theNewDynamic/
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://jamblog.netlify.app/posts/my-first-post/" class="color-inherit dim link">
-            初めての投稿
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          ブログ初心者が最近流行りのJamstackでブログを作ります！初めてのテスト投稿です。
-        </div>
-          <a href="https://jamblog.netlify.app/posts/my-first-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
+      
+      <section class="w-100">
+        <h1 class="f3">More</h1>
+        
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="https://jamblog.netlify.app/posts/my-first-post/" class="link black dim">
+              初めての投稿
+            </a>
+          </h2>
+        
+
+        
+        
+          <a href="https://jamblog.netlify.app/posts/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Posts</a>
+        
+        </section>
       
 
       </div>

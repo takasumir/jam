@@ -1,0 +1,36 @@
+---
+title: "Hugo+NetlifyでJamstackブログの作り方 (3) Netlifyでホスティング"
+date: 2021-05-16T20:25:53+09:00
+draft: false
+---
+
+Hugoでブログ記事を作成しGitHubへアップロードしました。最後にNetlifyでブログをホスティングします。
+
+## 記事をドラフト(draft)から正式版にする
+
+[Hugo+NetlifyでJamstackブログの作り方 (1)事前準備](../quick-start/)で記事を作成しましたが、`quick-start.md`の最初の数行、ヘッダー行(fromt matter というみたいです)に`draft: true`と書かれた行があります。`true`だとドラフト状態なのでHugoで-Dオプションを付けないとHTMLファイルが作成されません。この行を`draft: false`に変更します。
+
+```markdown
+---
+title: "Hugo+NetlifyでJamstackブログの作り方 (1)事前準備"
+date: 2021-05-04T20:09:18+09:00
+draft: false
+---
+
+![Jamstack logo](/image/Jamstack_Logo_Original.svg)
+
+今までGoogleのサービス、Bloggerでブログを書いていましたがカスタマイズ...
+```
+
+これで準備完了です。これで-Dオプションを付けなくても記事が作成されるようになります。
+
+## Netlifyの登録
+
+[Netlify](https://www.netlify.com/)へアクセスし、Get started for free ボタンをクリックします。
+
+![Netlifyトップページ](./quick-start-3_01.png)
+
+GitHubアカウントでサインインします。
+
+![GitHubアカウントでサインイン](./quick-start-3_02.png)
+
