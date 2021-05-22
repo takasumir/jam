@@ -10,7 +10,7 @@ Hugoを使い静的サイトでブログを構築しています。数記事描�
 
 トップページの記事一覧が下記のようにごちゃごちゃ全文が表示されています。テーマはanankeを使っています。
 
-![hasCJKLanguage=falseでのトップページ]([false_hasCJKLanguage.webp)
+![hasCJKLanguage=falseでのトップページ](false_hasCJKLanguage.webp)
 
 これでは記事一覧の意味がありませんね。
 
@@ -34,6 +34,6 @@ hasCJKLanguage = true
 
 サイトを構築して表示させてみます。
 
-![hasCJKLanguage=trueでのトップページ]([hasCJKLanguage.webp)
+![hasCJKLanguage=trueでのトップページ](hasCJKLanguage.webp)
 
 記事一覧がスッキリしました！
