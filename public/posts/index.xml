@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 初心者Jamstack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 16 May 2021 20:25:53 +0900</lastBuildDate><atom:link href="https://jamblog.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 May 2021 21:33:00 +0900</lastBuildDate><atom:link href="https://jamblog.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugoで記事のサマリーが全文表示されてしまうときの対処法</title>
+      <link>https://jamblog.netlify.app/posts/snippet-hascjklanguage/</link>
+      <pubDate>Tue, 18 May 2021 21:33:00 +0900</pubDate>
+      
+      <guid>https://jamblog.netlify.app/posts/snippet-hascjklanguage/</guid>
+      <description>Hugoを使い静的サイトでブログを構築しています。数記事描いたところでトップページで記事一覧を表示したところ、各記事が全文表示されて非常に見</description>
+    </item>
+    
     <item>
       <title>Hugo&#43;NetlifyでJamstackブログの作り方 (3) Netlifyでホスティング</title>
       <link>https://jamblog.netlify.app/posts/quick-start-3/</link>
