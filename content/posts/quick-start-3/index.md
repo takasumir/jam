@@ -2,6 +2,7 @@
 title: "Hugo+NetlifyでJamstackブログの作り方 (3) Netlifyでホスティング"
 date: 2021-05-16T20:25:53+09:00
 draft: false
+keywords: "Hugo, Netlify, Jamstack, ブログ"
 ---
 
 Hugoでブログ記事を作成しGitHubへアップロードしました。最後にNetlifyでブログをホスティングします。

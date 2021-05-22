@@ -144,7 +144,7 @@
     <div class="nested-copy-line-height lh-copy avenir bg-near-white f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Hugoを使い静的サイトでブログを構築しています。数記事描いたところでトップページで記事一覧を表示したところ、各記事が全文表示されて非常に見にくい状態になってしまいました。記事始めの数十文字を表示させる方法を説明します。</p>
 <h2 id="記事一覧で各記事が全文表示されてしまう">記事一覧で各記事が全文表示されてしまう</h2>
 <p>トップページの記事一覧が下記のようにごちゃごちゃ全文が表示されています。テーマはanankeを使っています。</p>
-<p><img src="%5Bfalse_hasCJKLanguage.webp" alt="hasCJKLanguage=falseでのトップページ"></p>
+<p><img src="false_hasCJKLanguage.webp" alt="hasCJKLanguage=falseでのトップページ"></p>
 <p>これでは記事一覧の意味がありませんね。</p>
 <h2 id="全文表示されてしまう原因">全文表示されてしまう原因</h2>
 <p>Hugoでは、記事のサマリーは.Summaryという記事パラメータに格納されます。サマリーを指定する方法は3通りあります。</p>
@@ -158,7 +158,7 @@
 <p>サイト全体の設定ファイルで hasCJKLanguage を true に指定すると自動でサマリーを作ってくれるようになります。<code>config.toml</code>に下記１文を追加します。</p>
 <pre><code>hasCJKLanguage = true
 </code></pre><p>サイトを構築して表示させてみます。</p>
-<p><img src="%5BhasCJKLanguage.webp" alt="hasCJKLanguage=trueでのトップページ"></p>
+<p><img src="hasCJKLanguage.webp" alt="hasCJKLanguage=trueでのトップページ"></p>
 <p>記事一覧がスッキリしました！</p>
 <ul class="pa0">
   
@@ -177,6 +177,7 @@
 </aside>
 
   </article>
+
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
