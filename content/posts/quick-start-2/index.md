@@ -3,6 +3,7 @@ title: "Hugo+NetlifyでJamstackブログの作り方 (2) GitHubへアップロ�
 date: 2021-05-15T09:47:28+09:00
 draft: false
 keywords: "Hugo, Netlify, Jamstack, Git, GitHub, ブログ"
+tags: ["Hugo", "Netlify", "Jamstack", "Git", "GitHub", "ブログ"]
 ---
 
 [Hugo+NetlifyでJamstackブログの作り方 (1)事前準備](/posts/quick-start/)でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。次はGitHubへのアップロードです。

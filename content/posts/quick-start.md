@@ -3,6 +3,7 @@ title: "Hugo+NetlifyでJamstackブログの作り方 (1)事前準備"
 date: 2021-05-04T20:09:18+09:00
 draft: false
 keywords: "Hugo, Netlify, Jamstack, ブログ"
+tags: ["Hugo", "Netlify", "Jamstack", "ブログ"]
 ---
 
 ![Jamstack logo](/image/Jamstack_Logo_Original.svg)

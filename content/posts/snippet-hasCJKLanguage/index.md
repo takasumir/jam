@@ -2,7 +2,8 @@
 title: "Hugoで記事のサマリーが全文表示されてしまうときの対処法"
 date: 2021-05-18T21:33:00+09:00
 draft: false
-keywords: "Hugo, Netlify, Jamstack, ブログ, snippet, 記事一覧, サマリー, Summary, CJKLanguage"
+keywords: "Hugo, ブログ, snippet, 記事一覧, サマリー, Summary, CJKLanguage"
+tags: ["Hugo", "ブログ", "snippet", "記事一覧", "サマリー", "Summary", "CJKLanguage"]
 ---
 
 Hugoを使い静的サイトでブログを構築しています。数記事描いたところでトップページで記事一覧を表示したところ、各記事が全文表示されて非常に見にくい状態になってしまいました。記事始めの数十文字を表示させる方法を説明します。
