@@ -11,3 +11,17 @@ Description = "ブログ初心者が最近流行りのJamstackでブログを作
 body_classes = "avenir bg-near-white"
 post_content_classes = "avenir bg-near-white"
 custom_css = ["css/custom.css"]
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+
+  [[related.indices]]
+    name = "keywords"
+    weight = 100
+
+  [[related.indices]]
+    name = "date"
+    weight = 10
+    
