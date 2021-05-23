@@ -67,7 +67,7 @@ keywords: "Hugo, ブログ, 関連記事, Related"
 この`related.html`を`single.html`で読み込みます。`themes/ananke/layouts/_default/single.html`を直接編集するか、これを`layouts/_default/single.html`にコピーして下記を追記します。
 
 ```
-{{ $related := .Site.RegularPages.Related . }}
+{{- partial "related.html" . -}}
 ```
 
 ## 失敗談と注意点
@@ -76,5 +76,5 @@ Front Matterに`keywords`の **s** を忘れて`keyword`としてしまうと何
 
 また、` . `の記述忘れにも注意です。
 ```
-{{ $related := .Site.RegularPages.Related ※ここのドット( . )の記述忘れ }}
+{{- partial "related.html" ※ここのドット( . )の記述忘れ -}}
 ```

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>初心者Jamstack</title>
-    <link>https://jamblog.netlify.app/</link>
-    <description>Recent content on 初心者Jamstack</description>
+    <title>Hugo on 初心者Jamstack</title>
+    <link>https://jamblog.netlify.app/tags/hugo/</link>
+    <description>Recent content in Hugo on 初心者Jamstack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 22 May 2021 13:46:17 +0900</lastBuildDate><atom:link href="https://jamblog.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 May 2021 13:46:17 +0900</lastBuildDate><atom:link href="https://jamblog.netlify.app/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugoで関連記事を表示する</title>
       <link>https://jamblog.netlify.app/posts/related/</link>
@@ -50,15 +50,6 @@
       
       <guid>https://jamblog.netlify.app/posts/quick-start/</guid>
       <description>今までGoogleのサービス、Bloggerでブログを書いていましたがカスタマイズに制約を感じ、レスポンスも遅くGoogleのUX指標Cor</description>
-    </item>
-    
-    <item>
-      <title>初めての投稿</title>
-      <link>https://jamblog.netlify.app/posts/my-first-post/</link>
-      <pubDate>Sun, 04 Apr 2021 12:46:20 +0900</pubDate>
-      
-      <guid>https://jamblog.netlify.app/posts/my-first-post/</guid>
-      <description>ブログ初心者が最近流行りのJamstackでブログを作ります！初めてのテスト投稿です。</description>
     </item>
     
   </channel>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jamstack on 初心者Jamstack</title>
+    <link>https://jamblog.netlify.app/tags/jamstack/</link>
+    <description>Recent content in Jamstack on 初心者Jamstack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 16 May 2021 20:25:53 +0900</lastBuildDate><atom:link href="https://jamblog.netlify.app/tags/jamstack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo&#43;NetlifyでJamstackブログの作り方 (3) Netlifyでホスティング</title>
+      <link>https://jamblog.netlify.app/posts/quick-start-3/</link>
+      <pubDate>Sun, 16 May 2021 20:25:53 +0900</pubDate>
+      
+      <guid>https://jamblog.netlify.app/posts/quick-start-3/</guid>
+      <description>Hugoでブログ記事を作成しGitHubへアップロードしました。最後にNetlifyでブログをホスティングします。 記事をドラフト(draft</description>
+    </item>
+    
+    <item>
+      <title>Hugo&#43;NetlifyでJamstackブログの作り方 (2) GitHubへアップロード</title>
+      <link>https://jamblog.netlify.app/posts/quick-start-2/</link>
+      <pubDate>Sat, 15 May 2021 09:47:28 +0900</pubDate>
+      
+      <guid>https://jamblog.netlify.app/posts/quick-start-2/</guid>
+      <description>Hugo+NetlifyでJamstackブログの作り方 (1)事前準備でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。</description>
+    </item>
+    
+    <item>
+      <title>Hugo&#43;NetlifyでJamstackブログの作り方 (1)事前準備</title>
+      <link>https://jamblog.netlify.app/posts/quick-start/</link>
+      <pubDate>Tue, 04 May 2021 20:09:18 +0900</pubDate>
+      
+      <guid>https://jamblog.netlify.app/posts/quick-start/</guid>
+      <description>今までGoogleのサービス、Bloggerでブログを書いていましたがカスタマイズに制約を感じ、レスポンスも遅くGoogleのUX指標Cor</description>
+    </item>
+    
+  </channel>
+</rss>

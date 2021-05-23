@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Related on 初心者Jamstack</title>
+    <link>https://jamblog.netlify.app/tags/related/</link>
+    <description>Recent content in Related on 初心者Jamstack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 22 May 2021 13:46:17 +0900</lastBuildDate><atom:link href="https://jamblog.netlify.app/tags/related/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugoで関連記事を表示する</title>
+      <link>https://jamblog.netlify.app/posts/related/</link>
+      <pubDate>Sat, 22 May 2021 13:46:17 +0900</pubDate>
+      
+      <guid>https://jamblog.netlify.app/posts/related/</guid>
+      <description>Hugoでブログを作ろうと奮闘中です。一通り設定を行いNetlifyでブログを公開できましたが、今回は関連記事の表示について書いてみたいと思</description>
+    </item>
+    
+  </channel>
+</rss>

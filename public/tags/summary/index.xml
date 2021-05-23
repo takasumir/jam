@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Summary on 初心者Jamstack</title>
+    <link>https://jamblog.netlify.app/tags/summary/</link>
+    <description>Recent content in Summary on 初心者Jamstack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 18 May 2021 21:33:00 +0900</lastBuildDate><atom:link href="https://jamblog.netlify.app/tags/summary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugoで記事のサマリーが全文表示されてしまうときの対処法</title>
+      <link>https://jamblog.netlify.app/posts/snippet-hascjklanguage/</link>
+      <pubDate>Tue, 18 May 2021 21:33:00 +0900</pubDate>
+      
+      <guid>https://jamblog.netlify.app/posts/snippet-hascjklanguage/</guid>
+      <description>Hugoを使い静的サイトでブログを構築しています。数記事描いたところでトップページで記事一覧を表示したところ、各記事が全文表示されて非常に見</description>
+    </item>
+    
+  </channel>
+</rss>
