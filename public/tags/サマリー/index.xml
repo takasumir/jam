@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>サマリー on 初心者Jamstack</title>
-    <link>https://jamblog.netlify.app/tags/%E3%82%B5%E3%83%9E%E3%83%AA%E3%83%BC/</link>
+    <link>https://jam.bchari.com/tags/%E3%82%B5%E3%83%9E%E3%83%AA%E3%83%BC/</link>
     <description>Recent content in サマリー on 初心者Jamstack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 18 May 2021 21:33:00 +0900</lastBuildDate><atom:link href="https://jamblog.netlify.app/tags/%E3%82%B5%E3%83%9E%E3%83%AA%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 May 2021 21:33:00 +0900</lastBuildDate><atom:link href="https://jam.bchari.com/tags/%E3%82%B5%E3%83%9E%E3%83%AA%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugoで記事のサマリーが全文表示されてしまうときの対処法</title>
-      <link>https://jamblog.netlify.app/posts/snippet-hascjklanguage/</link>
+      <link>https://jam.bchari.com/posts/snippet-hascjklanguage/</link>
       <pubDate>Tue, 18 May 2021 21:33:00 +0900</pubDate>
       
-      <guid>https://jamblog.netlify.app/posts/snippet-hascjklanguage/</guid>
+      <guid>https://jam.bchari.com/posts/snippet-hascjklanguage/</guid>
       <description>Hugoを使い静的サイトでブログを構築しています。数記事描いたところでトップページで記事一覧を表示したところ、各記事が全文表示されて非常に見</description>
     </item>
     

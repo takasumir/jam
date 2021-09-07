@@ -1,4 +1,4 @@
-baseURL = "https://jamblog.netlify.app/"
+baseURL = "https://jam.bchari.com/"
 languageCode = "ja"
 title = "初心者Jamstack"
 theme = "ananke"
@@ -24,4 +24,3 @@ custom_css = ["css/custom.css"]
   [[related.indices]]
     name = "date"
     weight = 10
-    

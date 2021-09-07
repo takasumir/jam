@@ -2,62 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>初心者Jamstack</title>
-    <link>https://jamblog.netlify.app/</link>
+    <link>https://jam.bchari.com/</link>
     <description>Recent content on 初心者Jamstack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 22 May 2021 13:46:17 +0900</lastBuildDate><atom:link href="https://jamblog.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Sep 2021 12:33:04 +0900</lastBuildDate><atom:link href="https://jam.bchari.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NetlifyのサイトをGoogle Domainsのサブドメインを使って運用する</title>
+      <link>https://jam.bchari.com/posts/subdomain/</link>
+      <pubDate>Mon, 06 Sep 2021 12:33:04 +0900</pubDate>
+      
+      <guid>https://jam.bchari.com/posts/subdomain/</guid>
+      <description>Netlifyは簡単に静的サイトを構築できる便利なサービスです。流行りのJamstackでブログを運用できたらと思いこのサイトを作りました。</description>
+    </item>
+    
     <item>
       <title>Hugoで関連記事を表示する</title>
-      <link>https://jamblog.netlify.app/posts/related/</link>
+      <link>https://jam.bchari.com/posts/related/</link>
       <pubDate>Sat, 22 May 2021 13:46:17 +0900</pubDate>
       
-      <guid>https://jamblog.netlify.app/posts/related/</guid>
+      <guid>https://jam.bchari.com/posts/related/</guid>
       <description>Hugoでブログを作ろうと奮闘中です。一通り設定を行いNetlifyでブログを公開できましたが、今回は関連記事の表示について書いてみたいと思</description>
     </item>
     
     <item>
       <title>Hugoで記事のサマリーが全文表示されてしまうときの対処法</title>
-      <link>https://jamblog.netlify.app/posts/snippet-hascjklanguage/</link>
+      <link>https://jam.bchari.com/posts/snippet-hascjklanguage/</link>
       <pubDate>Tue, 18 May 2021 21:33:00 +0900</pubDate>
       
-      <guid>https://jamblog.netlify.app/posts/snippet-hascjklanguage/</guid>
+      <guid>https://jam.bchari.com/posts/snippet-hascjklanguage/</guid>
       <description>Hugoを使い静的サイトでブログを構築しています。数記事描いたところでトップページで記事一覧を表示したところ、各記事が全文表示されて非常に見</description>
     </item>
     
     <item>
       <title>Hugo&#43;NetlifyでJamstackブログの作り方 (3) Netlifyでホスティング</title>
-      <link>https://jamblog.netlify.app/posts/quick-start-3/</link>
+      <link>https://jam.bchari.com/posts/quick-start-3/</link>
       <pubDate>Sun, 16 May 2021 20:25:53 +0900</pubDate>
       
-      <guid>https://jamblog.netlify.app/posts/quick-start-3/</guid>
+      <guid>https://jam.bchari.com/posts/quick-start-3/</guid>
       <description>Hugoでブログ記事を作成しGitHubへアップロードしました。最後にNetlifyでブログをホスティングします。 記事をドラフト(draft</description>
     </item>
     
     <item>
       <title>Hugo&#43;NetlifyでJamstackブログの作り方 (2) GitHubへアップロード</title>
-      <link>https://jamblog.netlify.app/posts/quick-start-2/</link>
+      <link>https://jam.bchari.com/posts/quick-start-2/</link>
       <pubDate>Sat, 15 May 2021 09:47:28 +0900</pubDate>
       
-      <guid>https://jamblog.netlify.app/posts/quick-start-2/</guid>
+      <guid>https://jam.bchari.com/posts/quick-start-2/</guid>
       <description>Hugo+NetlifyでJamstackブログの作り方 (1)事前準備でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。</description>
     </item>
     
     <item>
       <title>Hugo&#43;NetlifyでJamstackブログの作り方 (1)事前準備</title>
-      <link>https://jamblog.netlify.app/posts/quick-start/</link>
+      <link>https://jam.bchari.com/posts/quick-start/</link>
       <pubDate>Tue, 04 May 2021 20:09:18 +0900</pubDate>
       
-      <guid>https://jamblog.netlify.app/posts/quick-start/</guid>
+      <guid>https://jam.bchari.com/posts/quick-start/</guid>
       <description>今までGoogleのサービス、Bloggerでブログを書いていましたがカスタマイズに制約を感じ、レスポンスも遅くGoogleのUX指標Cor</description>
     </item>
     
     <item>
       <title>初めての投稿</title>
-      <link>https://jamblog.netlify.app/posts/my-first-post/</link>
+      <link>https://jam.bchari.com/posts/my-first-post/</link>
       <pubDate>Sun, 04 Apr 2021 12:46:20 +0900</pubDate>
       
-      <guid>https://jamblog.netlify.app/posts/my-first-post/</guid>
+      <guid>https://jam.bchari.com/posts/my-first-post/</guid>
       <description>ブログ初心者が最近流行りのJamstackでブログを作ります！初めてのテスト投稿です。</description>
     </item>
     
