@@ -30,7 +30,11 @@ Netlifyでドメインを取得すれば何も考えなくても独自ドメイ�
 
 デフォルトのネームサーバーの、カスタムレコードの「新しいレコードを作成」をクリックしてホスト名に好きなサブドメイン名を、タイプに「CNAME」を、TTLは始めから3600が入っているのでそのままにし、データにNetlifyでのサイトの（サブドメイン含む）ドメイン名を入れて保存します。
 
+![カスタムレコードの設定](./GoogleDomains4.png)
+
 保存後、Netlifyのドメイン名の最後にピリオド「.」が着きますが、気にしなくて良いです。(jamblog.netlify.app**.** になっています）
+
+![保存後の画面](./GoogleDomains5.png)
 
 これでGoogle Domainsの設定は終わりです。
 
@@ -38,17 +42,31 @@ Netlifyでドメインを取得すれば何も考えなくても独自ドメイ�
 
 次に、Netlify側の設定をしましょう。NetlifyにログインしてサイトのDomain settingsをクリックします。
 
+![Netlify管理画面](./Netlify1.png)
+
 Custom domainsの項目にAdd custom domainボタンがあるのでクリックします。
+
+![Add custom domain](./Netlify2.png)
 
 さきほどGoogle Domainsで作ったサブドメインを含むドメイン名を入れてVerifyをクリックします。この例ではjam.bchari.comです。
 
+![ドメイン名を入力](./Netlify3.png)
+
 既にドメイン名が登録されているよ、と警告が出ます。もちろんGoogle Domainsで登録しているからなのでこのままAdd domainをクリックして進めます。
+
+![Add domainをクリック](./Netlify4.png)
 
 SSL/TSL certificateのVerify DNS configurationをクリック。
 
+![SSL/TSL certificate](./Netlify5.png)
+
 DNS verification was scccessfulと出ました。
 
+![SSL/TSL certificate成功](./Netlify6.png)
+
 Custom domainsにも登録したjam.bchari.comがPrimary domainとして登録されています。
+
+![Custon domainsに登録された](./Netlify7.png)
 
 ## Hugoのconfig.tomlの設定
 
@@ -65,4 +83,23 @@ baseURL = "https://jam.bchari.com/"
 ```
 
 ## ビルドして確認
+
+config.tomlを書き換えたらローカルのHugoでサイトを作り確認後、gitへpushします。
+
+$ hugo
+$ git add -A
+$ git commit -m "domain changed"
+$ git push
+
+さて、変更後のURL https://jam.bchari.com にアクセスすると、無事トップページが表示されました。各ページへのリンクも全て変更後のドメインに変わっています。
+
+![ドメイン変更後のトップページ](./Netlify8.png)
+
+もちろん、今までのアドレス https://jamblog.netlify.app でもアクセスでいます。
+
+## まとめ
+
+Netlifyで運用しているサイトを、Google Domainsのサブドメインに割り当てることができました。ポイントはGoogle DomainsのネームサーバーでCNAMEを設定することです。
+
+独自ドメインでブログなどをやっていて、Jamstackに興味のある方は今持っているドメインを使うことができるので気軽に試してみてはいかがでしょうか？
 
