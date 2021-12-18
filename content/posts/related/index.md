@@ -4,6 +4,7 @@ date: 2021-05-22T13:46:17+09:00
 draft: false
 keywords: "Hugo, ブログ, 関連記事, Related"
 tags: ["Hugo", "ブログ", "関連記事", "Related"]
+featured_image: '/posts/related/related.svg'
 ---
 
 Hugoでブログを作ろうと奮闘中です。一通り設定を行いNetlifyでブログを公開できましたが、今回は関連記事の表示について書いてみたいと思います。テーマはanankeを使っています。

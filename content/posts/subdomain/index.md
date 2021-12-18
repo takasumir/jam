@@ -4,6 +4,7 @@ date: 2021-09-06T12:33:04+09:00
 draft: false
 keywords: "Hugo, Netlify, Jamstack, ブログ, Googleドメイン, サブドメイン"
 tags: ["Hugo", "Netlify", "Jamstack", "ブログ, Googleドメイン, サブドメイン"]
+featured_image: '/posts/subdomain/GoogleDomains1.png'
 ---
 
 Netlifyは簡単に静的サイトを構築できる便利なサービスです。流行りのJamstackでブログを運用できたらと思いこのサイトを作りました。
