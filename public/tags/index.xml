@@ -6,22 +6,67 @@
     <description>Recent content in Tags on 初心者Jamstack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 06 Sep 2021 12:33:04 +0900</lastBuildDate><atom:link href="https://jam.bchari.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Dec 2021 06:41:15 +0900</lastBuildDate><atom:link href="https://jam.bchari.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
       <link>https://jam.bchari.com/tags/hugo/</link>
-      <pubDate>Mon, 06 Sep 2021 12:33:04 +0900</pubDate>
+      <pubDate>Sat, 25 Dec 2021 06:41:15 +0900</pubDate>
       
       <guid>https://jam.bchari.com/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Jamstack</title>
+      <title>JamStack</title>
       <link>https://jam.bchari.com/tags/jamstack/</link>
-      <pubDate>Mon, 06 Sep 2021 12:33:04 +0900</pubDate>
+      <pubDate>Sat, 25 Dec 2021 06:41:15 +0900</pubDate>
       
       <guid>https://jam.bchari.com/tags/jamstack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ブログ</title>
+      <link>https://jam.bchari.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/</link>
+      <pubDate>Sat, 25 Dec 2021 06:41:15 +0900</pubDate>
+      
+      <guid>https://jam.bchari.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>画像</title>
+      <link>https://jam.bchari.com/tags/%E7%94%BB%E5%83%8F/</link>
+      <pubDate>Sat, 25 Dec 2021 06:41:15 +0900</pubDate>
+      
+      <guid>https://jam.bchari.com/tags/%E7%94%BB%E5%83%8F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Featured Image</title>
+      <link>https://jam.bchari.com/tags/featured-image/</link>
+      <pubDate>Sat, 18 Dec 2021 17:01:54 +0900</pubDate>
+      
+      <guid>https://jam.bchari.com/tags/featured-image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hero Image</title>
+      <link>https://jam.bchari.com/tags/hero-image/</link>
+      <pubDate>Sat, 18 Dec 2021 17:01:54 +0900</pubDate>
+      
+      <guid>https://jam.bchari.com/tags/hero-image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>アイキャッチ画像</title>
+      <link>https://jam.bchari.com/tags/%E3%82%A2%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E7%94%BB%E5%83%8F/</link>
+      <pubDate>Sat, 18 Dec 2021 17:01:54 +0900</pubDate>
+      
+      <guid>https://jam.bchari.com/tags/%E3%82%A2%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E7%94%BB%E5%83%8F/</guid>
       <description></description>
     </item>
     
@@ -49,15 +94,6 @@
       <pubDate>Sat, 22 May 2021 13:46:17 +0900</pubDate>
       
       <guid>https://jam.bchari.com/tags/related/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ブログ</title>
-      <link>https://jam.bchari.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/</link>
-      <pubDate>Sat, 22 May 2021 13:46:17 +0900</pubDate>
-      
-      <guid>https://jam.bchari.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/</guid>
       <description></description>
     </item>
     

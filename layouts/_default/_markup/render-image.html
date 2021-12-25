@@ -1,0 +1,19 @@
+<!-- layouts/_default/_markup/render-image.html -->
+{{ $contentImage := path.Join "/content" .Page.RelPermalink (.Destination | safeURL) }}
+{{ $staticImage := path.Join "/static" (.Destination | safeURL) }}
+{{ $imgcnf := "" }}
+{{ if and (fileExists $contentImage) (not (findRE `.svg$` $contentImage)) }}
+{{ $imgcnf = imageConfig $contentImage }}
+{{ else if and (fileExists $staticImage) (not (findRE `.svg$` $contentImage)) }}
+{{ $imgcnf = imageConfig $staticImage }}
+{{ end }}
+<img class="h-auto"
+  src="{{ .Destination | safeURL }}"
+  alt="{{ .Text }}"
+  loading="lazy"
+{{ with $imgcnf }}
+  width="{{ .Width }}"
+  height="{{ .Height }}"
+{{ end }}
+/>
+

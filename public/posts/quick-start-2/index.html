@@ -7,7 +7,7 @@
     <title>Hugo&#43;NetlifyでJamstackブログの作り方 (2) GitHubへアップロード | 初心者Jamstack</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="Hugo&#43;NetlifyでJamstackブログの作り方 (1)事前準備でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。">
-    <meta name="generator" content="Hugo 0.82.0" />
+    <meta name="generator" content="Hugo 0.91.0" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -36,12 +36,12 @@
 <meta property="og:description" content="Hugo&#43;NetlifyでJamstackブログの作り方 (1)事前準備でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://jam.bchari.com/posts/quick-start-2/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-05-15T09:47:28&#43;09:00" />
-<meta property="article:modified_time" content="2021-05-15T09:47:28&#43;09:00" />
+<meta property="article:published_time" content="2021-05-15T09:47:28+09:00" />
+<meta property="article:modified_time" content="2021-05-15T09:47:28+09:00" />
 
 <meta itemprop="name" content="Hugo&#43;NetlifyでJamstackブログの作り方 (2) GitHubへアップロード">
-<meta itemprop="description" content="Hugo&#43;NetlifyでJamstackブログの作り方 (1)事前準備でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。"><meta itemprop="datePublished" content="2021-05-15T09:47:28&#43;09:00" />
-<meta itemprop="dateModified" content="2021-05-15T09:47:28&#43;09:00" />
+<meta itemprop="description" content="Hugo&#43;NetlifyでJamstackブログの作り方 (1)事前準備でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。"><meta itemprop="datePublished" content="2021-05-15T09:47:28+09:00" />
+<meta itemprop="dateModified" content="2021-05-15T09:47:28+09:00" />
 <meta itemprop="wordCount" content="907">
 <meta itemprop="keywords" content="Hugo,Netlify,Jamstack,Git,GitHub,ブログ," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo&#43;NetlifyでJamstackブログの作り方 (2) GitHubへアップロード"/>
@@ -144,28 +144,113 @@
     <div class="nested-copy-line-height lh-copy avenir bg-near-white f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><a href="/posts/quick-start/">Hugo+NetlifyでJamstackブログの作り方 (1)事前準備</a>でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。次はGitHubへのアップロードです。</p>
 <h2 id="githubのアカウント登録">GitHubのアカウント登録</h2>
 <p>GitHubのアカウントを持っていない場合は、<a href="https://github.com/">GitHub</a>へアクセスして右上のボタンからSign upします。</p>
-<p><img src="./github.webp" alt="GitHub homepage"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./github.webp"
+  alt="GitHub homepage"
+  loading="lazy"
+
+  width="640"
+  height="484"
+
+/>
+
+</p>
 <h2 id="レポジトリの作成">レポジトリの作成</h2>
 <p>アカウントを登録したら右上の＋マークからNew Repositoryで新しいレポジトリを作成します。</p>
-<p><img src="./new_repository.webp" alt="レポジトリの作成"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./new_repository.webp"
+  alt="レポジトリの作成"
+  loading="lazy"
+
+  width="712"
+  height="383"
+
+/>
+
+</p>
 <p>quickstartという名前を入れてレポジトリを作成します。</p>
-<p><img src="./repository_name.webp" alt="レポジトリ名の入力"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./repository_name.webp"
+  alt="レポジトリ名の入力"
+  loading="lazy"
+
+  width="400"
+  height="390"
+
+/>
+
+</p>
 <p>レポジトリが作成できました。</p>
-<p><img src="./repository_created.webp" alt="レポジトリの作成"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./repository_created.webp"
+  alt="レポジトリの作成"
+  loading="lazy"
+
+  width="400"
+  height="85"
+
+/>
+
+</p>
 <p>レポジトリのURL <code>https://github.com/ユーザー名/quickstart.git</code> は後で使うのでコピーしておきましょう。</p>
 <h2 id="githubへアップロード">GitHubへアップロード</h2>
 <p>Git bashを起動し、quickstartフォルダで下記コマンドを実行しローカルレポジトリにファイルを追加(add)します。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git add .
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git add .
 </code></pre></div><p>ファイルを追加したら次はコミット(commit)します。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git commit -m <span style="color:#e6db74">&#39;my first commit&#39;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git commit -m <span style="color:#e6db74">&#39;my first commit&#39;</span>
 </code></pre></div><p>ローカルレポジトリからファイルをプッシュ(push)する先のリモートレポジトリを設定します。リモートレポジトリは先ほどGitHubで作成したURLを入れます。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git remote add origin https://github.com/ユーザー名/quickstart.git
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git remote add origin https://github.com/ユーザー名/quickstart.git
 </code></pre></div><p>リモートレポジトリが正しく追加されたか確認します。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git remote -v
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git remote -v
 </code></pre></div><p>最後にリモートレポジトリにローカルファイルをプッシュ(push)します。origin、masterなどbranchの概念が出てきますがここではとりあえずmasterブランチにアップロードします。別のbranch名を作成してNetlifyでbranchを指定することもできます。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git push origin master
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git push origin master
 </code></pre></div><p>ファイルがアップロードされました。</p>
-<p><img src="./quickstart_repository.webp" alt="レポジトリの作成"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quickstart_repository.webp"
+  alt="レポジトリの作成"
+  loading="lazy"
+
+  width="728"
+  height="445"
+
+/>
+
+</p>
 <h2 id="まとめ">まとめ</h2>
 <p>Hugoで記事を作成した後のGitHubへのアップロードについて説明しました。gitのコマンドは慣れないと難しく感じますが、ローカルレポジトリを変更したら add -&gt; commit -&gt; push の流れを掴んでおけば良いでしょう。</p>
 <p>次はようやくGitHubへアップロードしたファイルをもとにNetlifyでブログを公開する方法を説明します。</p>
@@ -221,6 +306,14 @@
 	    
 	     <li  class="mb2">
           <a href="/posts/subdomain/">NetlifyのサイトをGoogle Domainsのサブドメインを使って運用する</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/render-image/">Hugo: 画像の遅延読込み(Lazy Loading)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/featured-image/">記事のアイキャッチ画像(Featured Image)を表示する</a>
         </li>
 	    
 	     <li  class="mb2">

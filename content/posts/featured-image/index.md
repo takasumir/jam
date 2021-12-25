@@ -3,7 +3,7 @@ title: "記事のアイキャッチ画像(Featured Image)を表示する"
 date: 2021-12-18T17:01:54+09:00
 draft: false
 keywords: "Hugo, ブログ, アイキャッチ画像, Featured Image, Hero Image"
-tags: ["Hugo", "ブログ", "アイキャッチ画像", "Featured Image", "Hero Image"]
+tags: ["Hugo", "ブログ", "アイキャッチ画像", "Featured Image", "Hero Image", "JamStack"]
 featured_image: '/posts/featured-image/undraw_chilling_re_4iq9.svg'
 
 ---

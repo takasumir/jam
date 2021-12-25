@@ -7,7 +7,7 @@
     <title>Hugo&#43;NetlifyでJamstackブログの作り方 (3) Netlifyでホスティング | 初心者Jamstack</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="Hugoでブログ記事を作成しGitHubへアップロードしました。最後にNetlifyでブログをホスティングします。 記事をドラフト(draft">
-    <meta name="generator" content="Hugo 0.82.0" />
+    <meta name="generator" content="Hugo 0.91.0" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -36,12 +36,12 @@
 <meta property="og:description" content="Hugoでブログ記事を作成しGitHubへアップロードしました。最後にNetlifyでブログをホスティングします。 記事をドラフト(draft" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://jam.bchari.com/posts/quick-start-3/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-05-16T20:25:53&#43;09:00" />
-<meta property="article:modified_time" content="2021-05-16T20:25:53&#43;09:00" />
+<meta property="article:published_time" content="2021-05-16T20:25:53+09:00" />
+<meta property="article:modified_time" content="2021-05-16T20:25:53+09:00" />
 
 <meta itemprop="name" content="Hugo&#43;NetlifyでJamstackブログの作り方 (3) Netlifyでホスティング">
-<meta itemprop="description" content="Hugoでブログ記事を作成しGitHubへアップロードしました。最後にNetlifyでブログをホスティングします。 記事をドラフト(draft"><meta itemprop="datePublished" content="2021-05-16T20:25:53&#43;09:00" />
-<meta itemprop="dateModified" content="2021-05-16T20:25:53&#43;09:00" />
+<meta itemprop="description" content="Hugoでブログ記事を作成しGitHubへアップロードしました。最後にNetlifyでブログをホスティングします。 記事をドラフト(draft"><meta itemprop="datePublished" content="2021-05-16T20:25:53+09:00" />
+<meta itemprop="dateModified" content="2021-05-16T20:25:53+09:00" />
 <meta itemprop="wordCount" content="2533">
 <meta itemprop="keywords" content="Hugo,Netlify,Jamstack,ブログ," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo&#43;NetlifyでJamstackブログの作り方 (3) Netlifyでホスティング"/>
@@ -144,7 +144,7 @@
     <div class="nested-copy-line-height lh-copy avenir bg-near-white f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Hugoでブログ記事を作成しGitHubへアップロードしました。最後にNetlifyでブログをホスティングします。</p>
 <h2 id="記事をドラフトdraftから正式版にする">記事をドラフト(draft)から正式版にする</h2>
 <p><a href="../quick-start/">Hugo+NetlifyでJamstackブログの作り方 (1)事前準備</a>で記事を作成しましたが、<code>quick-start.md</code>の最初の数行、ヘッダー行(fromt matter というみたいです)に<code>draft: true</code>と書かれた行があります。<code>true</code>だとドラフト状態なのでHugoで-Dオプションを付けないとHTMLファイルが作成されません。この行を<code>draft: false</code>に変更します。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">---
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">---
 title: &#34;Hugo+NetlifyでJamstackブログの作り方 (1)事前準備&#34;
 date: 2021-05-04T20:09:18+09:00
 draft: false
@@ -156,64 +156,353 @@ draft: false
 </code></pre></div><p>これで準備完了です。これで-Dオプションを付けなくても記事が作成されるようになります。</p>
 <h2 id="netlifyの登録">Netlifyの登録</h2>
 <p><a href="https://www.netlify.com/">Netlify</a>へアクセスし、Get started for free ボタンをクリックします。</p>
-<p><img src="./quick-start-3_01.webp" alt="Netlifyトップページ"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_01.webp"
+  alt="Netlifyトップページ"
+  loading="lazy"
+
+  width="400"
+  height="286"
+
+/>
+
+</p>
 <p>GitHubアカウントでサインインします。</p>
-<p><img src="./quick-start-3_02.webp" alt="GitHubアカウントでサインイン"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_02.webp"
+  alt="GitHubアカウントでサインイン"
+  loading="lazy"
+
+  width="400"
+  height="309"
+
+/>
+
+</p>
 <p>サインインするとNetlifyにアクセス権を与える確認画面が出るので承認します。</p>
-<p><img src="./quick-start-3_04.webp" alt="Authorize Netlify Auth"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_04.webp"
+  alt="Authorize Netlify Auth"
+  loading="lazy"
+
+  width="400"
+  height="309"
+
+/>
+
+</p>
 <p>ここからNetlifyのセットアップが続きます。</p>
-<p><img src="./quick-start-3_05.webp" alt="セットアップ最初の画面"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_05.webp"
+  alt="セットアップ最初の画面"
+  loading="lazy"
+
+  width="400"
+  height="309"
+
+/>
+
+</p>
 <p>7ページもありましたが、入力後 Set up and continue ボタンを押して続けます。</p>
-<p><img src="./quick-start-3_06.webp" alt="セットアップ最後の画面"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_06.webp"
+  alt="セットアップ最後の画面"
+  loading="lazy"
+
+  width="400"
+  height="309"
+
+/>
+
+</p>
 <h2 id="サイトを作成deployする">サイトを作成(deploy)する</h2>
 <p>始めのページ Team overview または Sites タブに New site from Git ボタンがあるのでこれをクリックします。</p>
-<p><img src="./quick-start-3_07.webp" alt="Sitesタブ"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_07.webp"
+  alt="Sitesタブ"
+  loading="lazy"
+
+  width="400"
+  height="309"
+
+/>
+
+</p>
 <p>Gitプロバイダーとして、GitHubを選択します。</p>
-<p><img src="./quick-start-3_08.webp" alt="Connect to Git provider"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_08.webp"
+  alt="Connect to Git provider"
+  loading="lazy"
+
+  width="400"
+  height="309"
+
+/>
+
+</p>
 <p>GitHubのレポジトリが出てくるので、先に作成していた quickstart レポジトリを選択します。</p>
-<p><img src="./quick-start-3_09.webp" alt="レポジトリの選択"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_09.webp"
+  alt="レポジトリの選択"
+  loading="lazy"
+
+  width="400"
+  height="309"
+
+/>
+
+</p>
 <p>レポジトリの設定です。</p>
 <ul>
 <li>Branchは、git push した branch を指定します。前回記事ではデフォルトの master でした。</li>
 <li>Build command は hugo を入力。</li>
 <li>Publish directory は public を入力。</li>
 </ul>
-<p><img src="./quick-start-3_10.webp" alt="レポジトリの設定"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_10.webp"
+  alt="レポジトリの設定"
+  loading="lazy"
+
+  width="400"
+  height="309"
+
+/>
+
+</p>
 <p>Advanced build settings の設定も必要でした。</p>
 <ul>
 <li>HUGO_VERSION にローカルPCにインストールしたhugoのバージョンを入力。</li>
 <li>HUGO_ENV に production を入力。</li>
 </ul>
-<p><img src="./quick-start-3_11.webp" alt="レポジトリの設定"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_11.webp"
+  alt="レポジトリの設定"
+  loading="lazy"
+
+  width="400"
+  height="309"
+
+/>
+
+</p>
 <p>hugoのバージョンはPowershellかGit shellで下記コマンドで確認できます。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ hugo version
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ hugo version
 hugo v0.82.0-9D960784 windows/amd64 BuildDate<span style="color:#f92672">=</span>2021-03-21T17:28:04Z VendorInfo<span style="color:#f92672">=</span>gohugoio
 </code></pre></div><p>HUGO_ENVにproductionを指定しないと作成した記事のmetaタグにNOINDEX, NOFOLLOWとなりサーチエンジンに見つけてもらえなくなってしまいます。これはanankeテーマに固有の設定かもしれません。下記はHUGO_ENVを指定しなかった場合記事のヘッダーの例です。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">META</span> <span style="color:#a6e22e">NAME</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ROBOTS&#34;</span> <span style="color:#a6e22e">CONTENT</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;NOINDEX, NOFOLLOW&#34;</span>&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">META</span> <span style="color:#a6e22e">NAME</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ROBOTS&#34;</span> <span style="color:#a6e22e">CONTENT</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;NOINDEX, NOFOLLOW&#34;</span>&gt;
 </code></pre></div><p>最後にDeploy siteをクリックします。Netlifyでは、サイトを作成することをDeploy(展開する、配置する)と呼ぶみたいです。</p>
-<p><img src="./quick-start-3_12.webp" alt="Deploy siteをクリック"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_12.webp"
+  alt="Deploy siteをクリック"
+  loading="lazy"
+
+  width="400"
+  height="309"
+
+/>
+
+</p>
 <p>サイトが作成されました。サイト名は適当な名前が割り当てられています。https://jolly-shannon-ade428.netlify.app なぜこの名前？</p>
-<p><img src="./quick-start-3_13.webp" alt="作成されたサイト"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_13.webp"
+  alt="作成されたサイト"
+  loading="lazy"
+
+  width="400"
+  height="209"
+
+/>
+
+</p>
 <p>ページ下に進むと Production deploys の項目があり、しばらくすると Published になればdeploy成功です！もしエラーが出ていたらこれまでの設定が何か間違っているはずです。ログを確認してみましょう。</p>
-<p><img src="./quick-start-3_14.webp" alt="Production deploys"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_14.webp"
+  alt="Production deploys"
+  loading="lazy"
+
+  width="359"
+  height="170"
+
+/>
+
+</p>
 <h2 id="サブドメインを変更する">サブドメインを変更する</h2>
 <p>このあと、有料のドメインを購入すれば独自ドメインでサイトが運用できます。無料で使う場合には、サブドメインを変更することができます。</p>
 <p>サイト名の下にSite settingsボタンがあるのでクリックします。</p>
-<p><img src="./quick-start-3_15.webp" alt="サイト名の表示画面"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_15.webp"
+  alt="サイト名の表示画面"
+  loading="lazy"
+
+  width="400"
+  height="314"
+
+/>
+
+</p>
 <p>Change site nameをクリックするとサブドメイン部分(画像のjolly-shannon-ade428)を変更できます。</p>
-<p><img src="./quick-start-3_16.webp" alt="サイト名の変更"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_16.webp"
+  alt="サイト名の変更"
+  loading="lazy"
+
+  width="400"
+  height="217"
+
+/>
+
+</p>
 <p>https://(変更したサイト名).netlify.app にアクセスしてみましょう。無事表示されました！</p>
-<p><img src="./quick-start-3_17.webp" alt="サイトの表示"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_17.webp"
+  alt="サイトの表示"
+  loading="lazy"
+
+  width="400"
+  height="365"
+
+/>
+
+</p>
 <h2 id="configtomlのサイト名を変更する">config.tomlのサイト名を変更する</h2>
 <p>ここまできたらあと一歩です。上で表示したサイトは、hugo側にサイト名を反映させていないのでリンクが正しくなっていません。例えば記事のread moreボタンを押してみると下記のように記事に飛べない状態です。</p>
-<p><img src="./quick-start-3_18.webp" alt="Example Domain表示画面"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_18.webp"
+  alt="Example Domain表示画面"
+  loading="lazy"
+
+  width="400"
+  height="122"
+
+/>
+
+</p>
 <p><code>quickstart</code>フォルダ直下の設定ファイル、<code>config.toml</code>を編集します。下記は変更前です。</p>
-<pre><code>baseURL = &quot;http://example.org/&quot;
+<pre tabindex="0"><code>baseURL = &quot;http://example.org/&quot;
 languageCode = &quot;ja-jp&quot;
 title = &quot;My New Hugo Site&quot;
 theme = &quot;ananke&quot;
 </code></pre><p><code>baseURL</code>をnetlifyのサイト名に変更します。titleにはサイト名を入れます。</p>
-<pre><code>baseURL = &quot;https://quickstart-jamblog.netlify.app&quot;
+<pre tabindex="0"><code>baseURL = &quot;https://quickstart-jamblog.netlify.app&quot;
 languageCode = &quot;ja-jp&quot;
 title = &quot;しろうとががんばってjamstackするサイト&quot;
 theme = &quot;ananke&quot;
@@ -223,17 +512,102 @@ theme = &quot;ananke&quot;
 <li><a href="../quick-start-2">Hugo+NetlifyでJamstackブログの作り方 (2) GitHubへアップロード</a></li>
 </ul>
 <p>変更をGitHubへアップロードできたらNetlifyのDeploysタブからTrigger deployをクリックして再度deployします。</p>
-<p><img src="./quick-start-3_19.webp" alt="NetlifyのDeployタブ"></p>
-<p><img src="./quick-start-3_20.webp" alt="Trigger deploy"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_19.webp"
+  alt="NetlifyのDeployタブ"
+  loading="lazy"
+
+  width="400"
+  height="289"
+
+/>
+
+</p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_20.webp"
+  alt="Trigger deploy"
+  loading="lazy"
+
+  width="400"
+  height="271"
+
+/>
+
+</p>
 <p>再度サイトを表示します。タイトルが変更されているのが確認できます。記事のread moreをクリックすると、、、</p>
-<p><img src="./quick-start-3_21.webp" alt="変更後のサイトを表示"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_21.webp"
+  alt="変更後のサイトを表示"
+  loading="lazy"
+
+  width="400"
+  height="284"
+
+/>
+
+</p>
 <p>ちゃんと記事へリンクできています。</p>
-<p><img src="./quick-start-3_22.webp" alt="リンクから記事を表示"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_22.webp"
+  alt="リンクから記事を表示"
+  loading="lazy"
+
+  width="400"
+  height="293"
+
+/>
+
+</p>
 <h2 id="まとめ">まとめ</h2>
 <p>初心者がJamstackで静的サイトのブログを作るまで一連の流れを説明しました。感想はどうでしたか？自分でやってみた感想としては、Bloggerとかのブログサービスに比べると相当な気力が必要でした。</p>
 <p>こんなに大変な思いをしなく一発でブログが作れるブログサービスでよくね？ともなるのですが最大のメリットはSEO対策だと思います。今年5月よりGoogleが検索結果の順位にCore Web Vitalという指標を導入し、レスポンスの遅いサイト、CLSの点数が悪いサイトは検索順位を落とされてしまう可能性があります。</p>
 <p>Hugo+GitHub+Netlifyで作ったこのサイトの記事は、測定ツールであるLighthouseを使うとなんとすべて100点です！BloggerだとまずPerformanceが30～40点台だし他の項目も軒並み低い点数です。</p>
-<p><img src="./quick-start-3_23.webp" alt="Lighthouseの測定結果"></p>
+<p>
+
+
+
+
+
+
+<img class="h-auto"
+  src="./quick-start-3_23.webp"
+  alt="Lighthouseの測定結果"
+  loading="lazy"
+
+  width="400"
+  height="338"
+
+/>
+
+</p>
 <p>無料でこれだけパフォーマンスが良く、SEO対策も完璧なブログを作るにはやはり静的サイトと良いテンプレートが必要になるのでしょう。Netlifyが普及するとレスポンスが重くなりそうですけどね。</p>
 <p>ということで、このブログでJamstackサイトの設定、調整、tipsなどをこれから発信していきたいと思います。</p>
 <ul class="pa0">
@@ -280,6 +654,14 @@ theme = &quot;ananke&quot;
 	    
 	     <li  class="mb2">
           <a href="/posts/subdomain/">NetlifyのサイトをGoogle Domainsのサブドメインを使って運用する</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/render-image/">Hugo: 画像の遅延読込み(Lazy Loading)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/featured-image/">記事のアイキャッチ画像(Featured Image)を表示する</a>
         </li>
 	    
 	     <li  class="mb2">

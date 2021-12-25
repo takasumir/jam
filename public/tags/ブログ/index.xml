@@ -6,7 +6,25 @@
     <description>Recent content in ブログ on 初心者Jamstack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 22 May 2021 13:46:17 +0900</lastBuildDate><atom:link href="https://jam.bchari.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Dec 2021 06:41:15 +0900</lastBuildDate><atom:link href="https://jam.bchari.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo: 画像の遅延読込み(Lazy Loading)</title>
+      <link>https://jam.bchari.com/posts/render-image/</link>
+      <pubDate>Sat, 25 Dec 2021 06:41:15 +0900</pubDate>
+      
+      <guid>https://jam.bchari.com/posts/render-image/</guid>
+      <description>ブログなどで画像を多用する場合、一度に画像を全部ダウンロードするとページの読み込みが遅くなってしまいます。最近のブラウザには解決策としてLa</description>
+    </item>
+    
+    <item>
+      <title>記事のアイキャッチ画像(Featured Image)を表示する</title>
+      <link>https://jam.bchari.com/posts/featured-image/</link>
+      <pubDate>Sat, 18 Dec 2021 17:01:54 +0900</pubDate>
+      
+      <guid>https://jam.bchari.com/posts/featured-image/</guid>
+      <description>HugoのAnankeテーマでアイキャッチ画像を設定する方法を解説します。 アイキャッチ画像とは ブログの記事一覧ページや、記事ページの先頭にそ</description>
+    </item>
+    
     <item>
       <title>Hugoで関連記事を表示する</title>
       <link>https://jam.bchari.com/posts/related/</link>
