@@ -2,8 +2,8 @@
 title: "Hugo: 画像の遅延読込み(Lazy Loading)"
 date: 2021-12-25T06:41:15+09:00
 draft: false
-keywords: "Hugo, ブログ, 画像, Lasy Loading, Width, Height"
-tags: ["Hugo", "ブログ", "画像", "JamStack"]
+keywords: "Hugo, ブログ, 画像, Mardown Render Hooks, Lasy Loading"
+tags: ["Hugo", "ブログ", "画像", "Mardown Render Hooks", "JamStack"]
 featured_image: '/posts/render-image/lazyloading.webp'
 ---
 
