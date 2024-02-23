@@ -18,7 +18,7 @@ async function getItems(asins) {
     }
 }
 async function renderItems() {
-    const ads = document.querySelectorAll(".pa-ad-unit");
+    const ads = document.querySelectorAll(".paapi5-pa-ad-unit");
     const asins = [];
     ads.forEach((elem) => {
         const asin = elem.dataset.asin;
