@@ -9,7 +9,10 @@
    "tachyons": "ananke"
   }
  },
- "dependencies": {},
+ "dependencies": {
+  "@netlify/functions": "^2.6.0",
+  "amazon-paapi": "^1.0.7"
+ },
  "devDependencies": {
   "auto-changelog": "^1.16.1",
   "cssnano": "^3.10.0",
