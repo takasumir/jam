@@ -1,12 +1,9 @@
 async function getItems(asins) {
     const params = asins.join("/");
     try {
-        const response = await fetch(
-            `https://sumicfunctions.netlify.app/paapi/${params}`,
-            {
-                mode: "cors",
-            },
-        );
+        const response = await fetch(`https://jam.bchari.com/paapi/${params}`, {
+            mode: "cors",
+        });
         if (!response.ok) {
             throw new Error("Network response was not OK");
         }
