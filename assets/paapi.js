@@ -26,9 +26,7 @@ async function renderItems() {
     });
     const res = await getItems(asins);
     ads.forEach((ad) => {
-        const template = document.querySelector("#tpl");
-        const clone = template.content.cloneNode(true);
-        const link = clone.querySelectorAll(".paap5-pa-product-title-link");
+        const link = ad.querySelectorAll(".paap5-pa-product-title-link");
         const item = res.ItemsResult.Items.find(
             (elem) => elem.ASIN === ad.dataset.asin,
         );
@@ -39,7 +37,7 @@ async function renderItems() {
                 elem.innerText = item.ItemInfo.Title.DisplayValue;
             }
         });
-        const img_a = clone.querySelector(".paapi5-pa-product-image-link");
+        const img_a = ad.querySelector(".paapi5-pa-product-image-link");
         const img = img_a.firstChild;
         img_a.href = item.DetailPageURL;
         img_a.title = item.ItemInfo.Title.DisplayValue;
@@ -47,9 +45,8 @@ async function renderItems() {
         img.alt = item.ItemInfo.Title.DisplayValue;
         img.width = item.Images.Primary.Medium.Width;
         img.height = item.Images.Primary.Medium.Height;
-        clone.querySelector(".paapi5-pa-product-list-price-value").innerText =
+        ad.querySelector(".paapi5-pa-product-list-price-value").innerText =
             item.Offers?.Listings[0].Price.DisplayAmount ?? "";
-        ad.replaceWith(clone);
     });
 }
 document.addEventListener("DOMContentLoaded", renderItems);
