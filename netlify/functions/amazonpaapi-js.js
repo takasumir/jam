@@ -2,7 +2,7 @@ const amazonPaapi = require("amazon-paapi");
 
 const commonParameters = {
     AccessKey: "AKIAIZ3UGYYMRIOE6H3A",
-    SecretKey: "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",
+    SecretKey: process.env.PAAPI_SECRET_KEY,
     PartnerTag: "takasumir-22",
     PartnerType: "Associates",
     Marketplace: "www.amazon.co.jp",
