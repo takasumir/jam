@@ -2,6 +2,7 @@
 title: "HugoでAmazonアソシエイトのリンクを作成する"
 date: 2024-02-23T22:09:46+09:00
 draft: false
+js: paapi.js
 keywords: "Hugo, Amazonアソシエイト, PA-API, アフェリエイト"
 tags: ["Hugo", "Amazonアソシエイト", "PA-API", "アフェリエイト"]
 ---
