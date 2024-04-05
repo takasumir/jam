@@ -7,10 +7,10 @@
     <title>記事のアイキャッチ画像(Featured Image)を表示する | 初心者Jamstack</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="HugoのAnankeテーマでアイキャッチ画像を設定する方法を解説します。 アイキャッチ画像とは ブログの記事一覧ページや、記事ページの先頭にそ">
-    <meta name="generator" content="Hugo 0.91.0" />
+    <meta name="generator" content="Hugo 0.113.0">
     
     
-      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
     
 
     
@@ -38,20 +38,22 @@
 <meta property="og:url" content="https://jam.bchari.com/posts/featured-image/" /><meta property="og:image" content="https://jam.bchari.com/posts/featured-image/post-w-featured-image.webp"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-12-18T17:01:54+09:00" />
 <meta property="article:modified_time" content="2021-12-18T17:01:54+09:00" />
-
 <meta itemprop="name" content="記事のアイキャッチ画像(Featured Image)を表示する">
 <meta itemprop="description" content="HugoのAnankeテーマでアイキャッチ画像を設定する方法を解説します。 アイキャッチ画像とは ブログの記事一覧ページや、記事ページの先頭にそ"><meta itemprop="datePublished" content="2021-12-18T17:01:54+09:00" />
 <meta itemprop="dateModified" content="2021-12-18T17:01:54+09:00" />
-<meta itemprop="wordCount" content="814"><meta itemprop="image" content="https://jam.bchari.com/posts/featured-image/post-w-featured-image.webp">
+<meta itemprop="wordCount" content="820"><meta itemprop="image" content="https://jam.bchari.com/posts/featured-image/post-w-featured-image.webp">
 <meta itemprop="keywords" content="Hugo,ブログ,アイキャッチ画像,Featured Image,Hero Image,JamStack," /><meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://jam.bchari.com/posts/featured-image/post-w-featured-image.webp"/>
 <meta name="twitter:title" content="記事のアイキャッチ画像(Featured Image)を表示する"/>
 <meta name="twitter:description" content="HugoのAnankeテーマでアイキャッチ画像を設定する方法を解説します。 アイキャッチ画像とは ブログの記事一覧ページや、記事ページの先頭にそ"/>
 
-	
+      
+    
+      
+      
   </head>
 
-  <body class="ma0 avenir bg-near-white">
+  <body class="ma0 avenir bg-near-white production">
 
     
    
@@ -193,14 +195,14 @@
 
 </p>
 <h2 id="アイキャッチ画像を指定するには">アイキャッチ画像を指定するには</h2>
-<p>記事の Front Matter に featured_image というアイテムを追加し、画像へのリンクを指定します。リンクに相対パスを指定する('./featured_image.png&rsquo;など)と表示されませんでした。なので、content フォルダからのパス(Hugo内の絶対パスというか、何というのでしょうね)で'/posts/&hellip;/featured_image.png&rsquo;のように指定しています。</p>
+<p>記事の Front Matter に featured_image というアイテムを追加し、画像へのリンクを指定します。リンクに相対パスを指定する(&rsquo;./featured_image.png&rsquo;など)と表示されませんでした。なので、content フォルダからのパス(Hugo内の絶対パスというか、何というのでしょうね)で&rsquo;/posts/&hellip;/featured_image.png&rsquo;のように指定しています。</p>
 <pre tabindex="0"><code>---
-title: &quot;記事のアイキャッチ画像(Featured Image)を表示する&quot;
+title: &#34;記事のアイキャッチ画像(Featured Image)を表示する&#34;
 date: 2021-12-18T17:01:54+09:00
 draft: false
-keywords: &quot;Hugo, ブログ, アイキャッチ画像, Featured Image, Hero Image&quot;
-tags: [&quot;Hugo&quot;, &quot;ブログ&quot;, &quot;アイキャッチ画像&quot;, &quot;Featured Image&quot;, &quot;Hero Image&quot;]
-featured_image: '/posts/related/undraw_chilling_re_4iq9.svg'
+keywords: &#34;Hugo, ブログ, アイキャッチ画像, Featured Image, Hero Image&#34;
+tags: [&#34;Hugo&#34;, &#34;ブログ&#34;, &#34;アイキャッチ画像&#34;, &#34;Featured Image&#34;, &#34;Hero Image&#34;]
+featured_image: &#39;/posts/related/undraw_chilling_re_4iq9.svg&#39;
 ---
 </code></pre><p>トップページにアイキャッチ画像が表示されました。</p>
 <p>
@@ -286,6 +288,10 @@ featured_image: '/posts/related/undraw_chilling_re_4iq9.svg'
     <ul class="pa0 list">
 	   
 	     <li  class="mb2">
+          <a href="/posts/render-image-2/">Hugo: imgタグにwidth, height属性を追加</a>
+        </li>
+	    
+	     <li  class="mb2">
           <a href="/posts/render-image/">Hugo: 画像の遅延読込み(Lazy Loading)</a>
         </li>
 	    
@@ -298,7 +304,7 @@ featured_image: '/posts/related/undraw_chilling_re_4iq9.svg'
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/posts/snippet-hascjklanguage/">Hugoで記事のサマリーが全文表示されてしまうときの対処法</a>
+          <a href="/posts/hascjklang/">Hugoで記事のサマリーが全文表示されてしまうときの対処法</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -313,6 +319,14 @@ featured_image: '/posts/related/undraw_chilling_re_4iq9.svg'
           <a href="/posts/quick-start/">Hugo&#43;NetlifyでJamstackブログの作り方 (1)事前準備</a>
         </li>
 	    
+	     <li  class="mb2">
+          <a href="/posts/amazon-paapi/">HugoでAmazonアソシエイトのリンクを作成する</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/hugo-books/">Hugo本を読んでみた</a>
+        </li>
+	    
     </ul>
 </div>
 
@@ -324,7 +338,7 @@ featured_image: '/posts/related/undraw_chilling_re_4iq9.svg'
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jam.bchari.com/" >
-    &copy;  初心者Jamstack 2021 
+    &copy;  初心者Jamstack 2024 
   </a>
     <div>
 

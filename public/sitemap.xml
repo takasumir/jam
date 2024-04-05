@@ -2,28 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jam.bchari.com/tags/amazon%E3%82%A2%E3%82%BD%E3%82%B7%E3%82%A8%E3%82%A4%E3%83%88/</loc>
+    <lastmod>2024-02-23T22:09:46+09:00</lastmod>
+  </url><url>
     <loc>https://jam.bchari.com/tags/hugo/</loc>
-    <lastmod>2021-12-25T06:41:15+09:00</lastmod>
+    <lastmod>2024-02-23T22:09:46+09:00</lastmod>
   </url><url>
-    <loc>https://jam.bchari.com/posts/render-image/</loc>
-    <lastmod>2021-12-25T06:41:15+09:00</lastmod>
+    <loc>https://jam.bchari.com/posts/amazon-paapi/</loc>
+    <lastmod>2024-02-23T22:09:46+09:00</lastmod>
   </url><url>
-    <loc>https://jam.bchari.com/tags/jamstack/</loc>
-    <lastmod>2021-12-25T06:41:15+09:00</lastmod>
+    <loc>https://jam.bchari.com/tags/pa-api/</loc>
+    <lastmod>2024-02-23T22:09:46+09:00</lastmod>
   </url><url>
     <loc>https://jam.bchari.com/posts/</loc>
-    <lastmod>2021-12-25T06:41:15+09:00</lastmod>
+    <lastmod>2024-02-23T22:09:46+09:00</lastmod>
   </url><url>
     <loc>https://jam.bchari.com/tags/</loc>
-    <lastmod>2021-12-25T06:41:15+09:00</lastmod>
+    <lastmod>2024-02-23T22:09:46+09:00</lastmod>
   </url><url>
-    <loc>https://jam.bchari.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/</loc>
-    <lastmod>2021-12-25T06:41:15+09:00</lastmod>
+    <loc>https://jam.bchari.com/tags/%E3%82%A2%E3%83%95%E3%82%A7%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%88/</loc>
+    <lastmod>2024-02-23T22:09:46+09:00</lastmod>
   </url><url>
     <loc>https://jam.bchari.com/</loc>
-    <lastmod>2021-12-25T06:41:15+09:00</lastmod>
+    <lastmod>2024-02-23T22:09:46+09:00</lastmod>
+  </url><url>
+    <loc>https://jam.bchari.com/posts/hugo-books/</loc>
+    <lastmod>2024-02-23T16:03:56+09:00</lastmod>
+  </url><url>
+    <loc>https://jam.bchari.com/tags/%E6%9B%B8%E8%A9%95/</loc>
+    <lastmod>2024-02-23T16:03:56+09:00</lastmod>
+  </url><url>
+    <loc>https://jam.bchari.com/posts/render-image-2/</loc>
+    <lastmod>2021-12-25T14:11:39+09:00</lastmod>
+  </url><url>
+    <loc>https://jam.bchari.com/tags/jamstack/</loc>
+    <lastmod>2021-12-25T14:11:39+09:00</lastmod>
+  </url><url>
+    <loc>https://jam.bchari.com/tags/mardown-render-hooks/</loc>
+    <lastmod>2021-12-25T14:11:39+09:00</lastmod>
+  </url><url>
+    <loc>https://jam.bchari.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/</loc>
+    <lastmod>2021-12-25T14:11:39+09:00</lastmod>
   </url><url>
     <loc>https://jam.bchari.com/tags/%E7%94%BB%E5%83%8F/</loc>
+    <lastmod>2021-12-25T14:11:39+09:00</lastmod>
+  </url><url>
+    <loc>https://jam.bchari.com/posts/render-image/</loc>
     <lastmod>2021-12-25T06:41:15+09:00</lastmod>
   </url><url>
     <loc>https://jam.bchari.com/tags/featured-image/</loc>
@@ -59,7 +83,7 @@
     <loc>https://jam.bchari.com/tags/cjklanguage/</loc>
     <lastmod>2021-05-18T21:33:00+09:00</lastmod>
   </url><url>
-    <loc>https://jam.bchari.com/posts/snippet-hascjklanguage/</loc>
+    <loc>https://jam.bchari.com/posts/hascjklang/</loc>
     <lastmod>2021-05-18T21:33:00+09:00</lastmod>
   </url><url>
     <loc>https://jam.bchari.com/tags/snippet/</loc>

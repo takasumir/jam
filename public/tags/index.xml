@@ -6,29 +6,74 @@
     <description>Recent content in Tags on 初心者Jamstack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Dec 2021 06:41:15 +0900</lastBuildDate><atom:link href="https://jam.bchari.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Feb 2024 22:09:46 +0900</lastBuildDate><atom:link href="https://jam.bchari.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amazonアソシエイト</title>
+      <link>https://jam.bchari.com/tags/amazon%E3%82%A2%E3%82%BD%E3%82%B7%E3%82%A8%E3%82%A4%E3%83%88/</link>
+      <pubDate>Fri, 23 Feb 2024 22:09:46 +0900</pubDate>
+      
+      <guid>https://jam.bchari.com/tags/amazon%E3%82%A2%E3%82%BD%E3%82%B7%E3%82%A8%E3%82%A4%E3%83%88/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Hugo</title>
       <link>https://jam.bchari.com/tags/hugo/</link>
-      <pubDate>Sat, 25 Dec 2021 06:41:15 +0900</pubDate>
+      <pubDate>Fri, 23 Feb 2024 22:09:46 +0900</pubDate>
       
       <guid>https://jam.bchari.com/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>PA-API</title>
+      <link>https://jam.bchari.com/tags/pa-api/</link>
+      <pubDate>Fri, 23 Feb 2024 22:09:46 +0900</pubDate>
+      
+      <guid>https://jam.bchari.com/tags/pa-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>アフェリエイト</title>
+      <link>https://jam.bchari.com/tags/%E3%82%A2%E3%83%95%E3%82%A7%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%88/</link>
+      <pubDate>Fri, 23 Feb 2024 22:09:46 +0900</pubDate>
+      
+      <guid>https://jam.bchari.com/tags/%E3%82%A2%E3%83%95%E3%82%A7%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%88/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>書評</title>
+      <link>https://jam.bchari.com/tags/%E6%9B%B8%E8%A9%95/</link>
+      <pubDate>Fri, 23 Feb 2024 16:03:56 +0900</pubDate>
+      
+      <guid>https://jam.bchari.com/tags/%E6%9B%B8%E8%A9%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>JamStack</title>
       <link>https://jam.bchari.com/tags/jamstack/</link>
-      <pubDate>Sat, 25 Dec 2021 06:41:15 +0900</pubDate>
+      <pubDate>Sat, 25 Dec 2021 14:11:39 +0900</pubDate>
       
       <guid>https://jam.bchari.com/tags/jamstack/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Mardown Render Hooks</title>
+      <link>https://jam.bchari.com/tags/mardown-render-hooks/</link>
+      <pubDate>Sat, 25 Dec 2021 14:11:39 +0900</pubDate>
+      
+      <guid>https://jam.bchari.com/tags/mardown-render-hooks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ブログ</title>
       <link>https://jam.bchari.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/</link>
-      <pubDate>Sat, 25 Dec 2021 06:41:15 +0900</pubDate>
+      <pubDate>Sat, 25 Dec 2021 14:11:39 +0900</pubDate>
       
       <guid>https://jam.bchari.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/</guid>
       <description></description>
@@ -37,7 +82,7 @@
     <item>
       <title>画像</title>
       <link>https://jam.bchari.com/tags/%E7%94%BB%E5%83%8F/</link>
-      <pubDate>Sat, 25 Dec 2021 06:41:15 +0900</pubDate>
+      <pubDate>Sat, 25 Dec 2021 14:11:39 +0900</pubDate>
       
       <guid>https://jam.bchari.com/tags/%E7%94%BB%E5%83%8F/</guid>
       <description></description>

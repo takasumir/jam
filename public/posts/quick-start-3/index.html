@@ -7,10 +7,10 @@
     <title>Hugo&#43;NetlifyでJamstackブログの作り方 (3) Netlifyでホスティング | 初心者Jamstack</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="Hugoでブログ記事を作成しGitHubへアップロードしました。最後にNetlifyでブログをホスティングします。 記事をドラフト(draft">
-    <meta name="generator" content="Hugo 0.91.0" />
+    <meta name="generator" content="Hugo 0.113.0">
     
     
-      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
     
 
     
@@ -38,19 +38,21 @@
 <meta property="og:url" content="https://jam.bchari.com/posts/quick-start-3/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-05-16T20:25:53+09:00" />
 <meta property="article:modified_time" content="2021-05-16T20:25:53+09:00" />
-
 <meta itemprop="name" content="Hugo&#43;NetlifyでJamstackブログの作り方 (3) Netlifyでホスティング">
 <meta itemprop="description" content="Hugoでブログ記事を作成しGitHubへアップロードしました。最後にNetlifyでブログをホスティングします。 記事をドラフト(draft"><meta itemprop="datePublished" content="2021-05-16T20:25:53+09:00" />
 <meta itemprop="dateModified" content="2021-05-16T20:25:53+09:00" />
-<meta itemprop="wordCount" content="2533">
+<meta itemprop="wordCount" content="2531">
 <meta itemprop="keywords" content="Hugo,Netlify,Jamstack,ブログ," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo&#43;NetlifyでJamstackブログの作り方 (3) Netlifyでホスティング"/>
 <meta name="twitter:description" content="Hugoでブログ記事を作成しGitHubへアップロードしました。最後にNetlifyでブログをホスティングします。 記事をドラフト(draft"/>
 
-	
+      
+    
+      
+      
   </head>
 
-  <body class="ma0 avenir bg-near-white">
+  <body class="ma0 avenir bg-near-white production">
 
     
    
@@ -144,16 +146,16 @@
     <div class="nested-copy-line-height lh-copy avenir bg-near-white f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Hugoでブログ記事を作成しGitHubへアップロードしました。最後にNetlifyでブログをホスティングします。</p>
 <h2 id="記事をドラフトdraftから正式版にする">記事をドラフト(draft)から正式版にする</h2>
 <p><a href="../quick-start/">Hugo+NetlifyでJamstackブログの作り方 (1)事前準備</a>で記事を作成しましたが、<code>quick-start.md</code>の最初の数行、ヘッダー行(fromt matter というみたいです)に<code>draft: true</code>と書かれた行があります。<code>true</code>だとドラフト状態なのでHugoで-Dオプションを付けないとHTMLファイルが作成されません。この行を<code>draft: false</code>に変更します。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">---
-title: &#34;Hugo+NetlifyでJamstackブログの作り方 (1)事前準備&#34;
-date: 2021-05-04T20:09:18+09:00
-draft: false
----
-
-![<span style="color:#f92672">Jamstack logo</span>](<span style="color:#a6e22e">/image/Jamstack_Logo_Original.svg</span>)
-
-今までGoogleのサービス、Bloggerでブログを書いていましたがカスタマイズ...
-</code></pre></div><p>これで準備完了です。これで-Dオプションを付けなくても記事が作成されるようになります。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;Hugo+NetlifyでJamstackブログの作り方 (1)事前準備&#34;
+</span></span><span style="display:flex;"><span>date: 2021-05-04T20:09:18+09:00
+</span></span><span style="display:flex;"><span>draft: false
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>![<span style="color:#f92672">Jamstack logo</span>](<span style="color:#a6e22e">/image/Jamstack_Logo_Original.svg</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>今までGoogleのサービス、Bloggerでブログを書いていましたがカスタマイズ...
+</span></span></code></pre></div><p>これで準備完了です。これで-Dオプションを付けなくても記事が作成されるようになります。</p>
 <h2 id="netlifyの登録">Netlifyの登録</h2>
 <p><a href="https://www.netlify.com/">Netlify</a>へアクセスし、Get started for free ボタンをクリックします。</p>
 <p>
@@ -356,11 +358,11 @@ draft: false
 
 </p>
 <p>hugoのバージョンはPowershellかGit shellで下記コマンドで確認できます。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ hugo version
-hugo v0.82.0-9D960784 windows/amd64 BuildDate<span style="color:#f92672">=</span>2021-03-21T17:28:04Z VendorInfo<span style="color:#f92672">=</span>gohugoio
-</code></pre></div><p>HUGO_ENVにproductionを指定しないと作成した記事のmetaタグにNOINDEX, NOFOLLOWとなりサーチエンジンに見つけてもらえなくなってしまいます。これはanankeテーマに固有の設定かもしれません。下記はHUGO_ENVを指定しなかった場合記事のヘッダーの例です。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">META</span> <span style="color:#a6e22e">NAME</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ROBOTS&#34;</span> <span style="color:#a6e22e">CONTENT</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;NOINDEX, NOFOLLOW&#34;</span>&gt;
-</code></pre></div><p>最後にDeploy siteをクリックします。Netlifyでは、サイトを作成することをDeploy(展開する、配置する)と呼ぶみたいです。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ hugo version
+</span></span><span style="display:flex;"><span>hugo v0.82.0-9D960784 windows/amd64 BuildDate<span style="color:#f92672">=</span>2021-03-21T17:28:04Z VendorInfo<span style="color:#f92672">=</span>gohugoio
+</span></span></code></pre></div><p>HUGO_ENVにproductionを指定しないと作成した記事のmetaタグにNOINDEX, NOFOLLOWとなりサーチエンジンに見つけてもらえなくなってしまいます。これはanankeテーマに固有の設定かもしれません。下記はHUGO_ENVを指定しなかった場合記事のヘッダーの例です。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">META</span> <span style="color:#a6e22e">NAME</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ROBOTS&#34;</span> <span style="color:#a6e22e">CONTENT</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;NOINDEX, NOFOLLOW&#34;</span>&gt;
+</span></span></code></pre></div><p>最後にDeploy siteをクリックします。Netlifyでは、サイトを作成することをDeploy(展開する、配置する)と呼ぶみたいです。</p>
 <p>
 
 
@@ -497,15 +499,15 @@ hugo v0.82.0-9D960784 windows/amd64 BuildDate<span style="color:#f92672">=</span
 
 </p>
 <p><code>quickstart</code>フォルダ直下の設定ファイル、<code>config.toml</code>を編集します。下記は変更前です。</p>
-<pre tabindex="0"><code>baseURL = &quot;http://example.org/&quot;
-languageCode = &quot;ja-jp&quot;
-title = &quot;My New Hugo Site&quot;
-theme = &quot;ananke&quot;
+<pre tabindex="0"><code>baseURL = &#34;http://example.org/&#34;
+languageCode = &#34;ja-jp&#34;
+title = &#34;My New Hugo Site&#34;
+theme = &#34;ananke&#34;
 </code></pre><p><code>baseURL</code>をnetlifyのサイト名に変更します。titleにはサイト名を入れます。</p>
-<pre tabindex="0"><code>baseURL = &quot;https://quickstart-jamblog.netlify.app&quot;
-languageCode = &quot;ja-jp&quot;
-title = &quot;しろうとががんばってjamstackするサイト&quot;
-theme = &quot;ananke&quot;
+<pre tabindex="0"><code>baseURL = &#34;https://quickstart-jamblog.netlify.app&#34;
+languageCode = &#34;ja-jp&#34;
+title = &#34;しろうとががんばってjamstackするサイト&#34;
+theme = &#34;ananke&#34;
 </code></pre><p><code>config.toml</code>を編集後、再度hugoで更新、git pushまで行い変更を反映します。下記の記事を参考ください。</p>
 <ul>
 <li><a href="../quick-start/">Hugo+NetlifyでJamstackブログの作り方 (1)事前準備</a></li>
@@ -657,6 +659,10 @@ theme = &quot;ananke&quot;
         </li>
 	    
 	     <li  class="mb2">
+          <a href="/posts/render-image-2/">Hugo: imgタグにwidth, height属性を追加</a>
+        </li>
+	    
+	     <li  class="mb2">
           <a href="/posts/render-image/">Hugo: 画像の遅延読込み(Lazy Loading)</a>
         </li>
 	    
@@ -669,7 +675,15 @@ theme = &quot;ananke&quot;
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/posts/snippet-hascjklanguage/">Hugoで記事のサマリーが全文表示されてしまうときの対処法</a>
+          <a href="/posts/hascjklang/">Hugoで記事のサマリーが全文表示されてしまうときの対処法</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/amazon-paapi/">HugoでAmazonアソシエイトのリンクを作成する</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/hugo-books/">Hugo本を読んでみた</a>
         </li>
 	    
     </ul>
@@ -683,7 +697,7 @@ theme = &quot;ananke&quot;
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jam.bchari.com/" >
-    &copy;  初心者Jamstack 2021 
+    &copy;  初心者Jamstack 2024 
   </a>
     <div>
 

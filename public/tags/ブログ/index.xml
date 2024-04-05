@@ -6,7 +6,16 @@
     <description>Recent content in ブログ on 初心者Jamstack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Dec 2021 06:41:15 +0900</lastBuildDate><atom:link href="https://jam.bchari.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Dec 2021 14:11:39 +0900</lastBuildDate><atom:link href="https://jam.bchari.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo: imgタグにwidth, height属性を追加</title>
+      <link>https://jam.bchari.com/posts/render-image-2/</link>
+      <pubDate>Sat, 25 Dec 2021 14:11:39 +0900</pubDate>
+      
+      <guid>https://jam.bchari.com/posts/render-image-2/</guid>
+      <description>Hugoで記事を作成する際に、Markdown Render Hooksを使ってimgタグにLazy Loading属性を追加する方法を書きましたが、今回は</description>
+    </item>
+    
     <item>
       <title>Hugo: 画像の遅延読込み(Lazy Loading)</title>
       <link>https://jam.bchari.com/posts/render-image/</link>
@@ -36,10 +45,10 @@
     
     <item>
       <title>Hugoで記事のサマリーが全文表示されてしまうときの対処法</title>
-      <link>https://jam.bchari.com/posts/snippet-hascjklanguage/</link>
+      <link>https://jam.bchari.com/posts/hascjklang/</link>
       <pubDate>Tue, 18 May 2021 21:33:00 +0900</pubDate>
       
-      <guid>https://jam.bchari.com/posts/snippet-hascjklanguage/</guid>
+      <guid>https://jam.bchari.com/posts/hascjklang/</guid>
       <description>Hugoを使い静的サイトでブログを構築しています。数記事描いたところでトップページで記事一覧を表示したところ、各記事が全文表示されて非常に見</description>
     </item>
     

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amazonアソシエイト on 初心者Jamstack</title>
+    <link>https://jam.bchari.com/tags/amazon%E3%82%A2%E3%82%BD%E3%82%B7%E3%82%A8%E3%82%A4%E3%83%88/</link>
+    <description>Recent content in Amazonアソシエイト on 初心者Jamstack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 23 Feb 2024 22:09:46 +0900</lastBuildDate><atom:link href="https://jam.bchari.com/tags/amazon%E3%82%A2%E3%82%BD%E3%82%B7%E3%82%A8%E3%82%A4%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HugoでAmazonアソシエイトのリンクを作成する</title>
+      <link>https://jam.bchari.com/posts/amazon-paapi/</link>
+      <pubDate>Fri, 23 Feb 2024 22:09:46 +0900</pubDate>
+      
+      <guid>https://jam.bchari.com/posts/amazon-paapi/</guid>
+      <description>Hugoで作ったサイトにAmazonアソシエイトの広告を設置する方法をまとめました。 前提条件 このブログはNetlifyにデプロイしているので</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,10 +7,10 @@
     <title>Hugo&#43;NetlifyでJamstackブログの作り方 (2) GitHubへアップロード | 初心者Jamstack</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="Hugo&#43;NetlifyでJamstackブログの作り方 (1)事前準備でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。">
-    <meta name="generator" content="Hugo 0.91.0" />
+    <meta name="generator" content="Hugo 0.113.0">
     
     
-      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
     
 
     
@@ -38,7 +38,6 @@
 <meta property="og:url" content="https://jam.bchari.com/posts/quick-start-2/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-05-15T09:47:28+09:00" />
 <meta property="article:modified_time" content="2021-05-15T09:47:28+09:00" />
-
 <meta itemprop="name" content="Hugo&#43;NetlifyでJamstackブログの作り方 (2) GitHubへアップロード">
 <meta itemprop="description" content="Hugo&#43;NetlifyでJamstackブログの作り方 (1)事前準備でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。"><meta itemprop="datePublished" content="2021-05-15T09:47:28+09:00" />
 <meta itemprop="dateModified" content="2021-05-15T09:47:28+09:00" />
@@ -47,10 +46,13 @@
 <meta name="twitter:title" content="Hugo&#43;NetlifyでJamstackブログの作り方 (2) GitHubへアップロード"/>
 <meta name="twitter:description" content="Hugo&#43;NetlifyでJamstackブログの作り方 (1)事前準備でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。"/>
 
-	
+      
+    
+      
+      
   </head>
 
-  <body class="ma0 avenir bg-near-white">
+  <body class="ma0 avenir bg-near-white production">
 
     
    
@@ -223,16 +225,16 @@
 <p>レポジトリのURL <code>https://github.com/ユーザー名/quickstart.git</code> は後で使うのでコピーしておきましょう。</p>
 <h2 id="githubへアップロード">GitHubへアップロード</h2>
 <p>Git bashを起動し、quickstartフォルダで下記コマンドを実行しローカルレポジトリにファイルを追加(add)します。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git add .
-</code></pre></div><p>ファイルを追加したら次はコミット(commit)します。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git commit -m <span style="color:#e6db74">&#39;my first commit&#39;</span>
-</code></pre></div><p>ローカルレポジトリからファイルをプッシュ(push)する先のリモートレポジトリを設定します。リモートレポジトリは先ほどGitHubで作成したURLを入れます。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git remote add origin https://github.com/ユーザー名/quickstart.git
-</code></pre></div><p>リモートレポジトリが正しく追加されたか確認します。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git remote -v
-</code></pre></div><p>最後にリモートレポジトリにローカルファイルをプッシュ(push)します。origin、masterなどbranchの概念が出てきますがここではとりあえずmasterブランチにアップロードします。別のbranch名を作成してNetlifyでbranchを指定することもできます。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git push origin master
-</code></pre></div><p>ファイルがアップロードされました。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>$ git add .
+</span></span></code></pre></div><p>ファイルを追加したら次はコミット(commit)します。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>$ git commit -m <span style="color:#e6db74">&#39;my first commit&#39;</span>
+</span></span></code></pre></div><p>ローカルレポジトリからファイルをプッシュ(push)する先のリモートレポジトリを設定します。リモートレポジトリは先ほどGitHubで作成したURLを入れます。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>$ git remote add origin https://github.com/ユーザー名/quickstart.git
+</span></span></code></pre></div><p>リモートレポジトリが正しく追加されたか確認します。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>$ git remote -v
+</span></span></code></pre></div><p>最後にリモートレポジトリにローカルファイルをプッシュ(push)します。origin、masterなどbranchの概念が出てきますがここではとりあえずmasterブランチにアップロードします。別のbranch名を作成してNetlifyでbranchを指定することもできます。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>$ git push origin master
+</span></span></code></pre></div><p>ファイルがアップロードされました。</p>
 <p>
 
 
@@ -309,6 +311,10 @@
         </li>
 	    
 	     <li  class="mb2">
+          <a href="/posts/render-image-2/">Hugo: imgタグにwidth, height属性を追加</a>
+        </li>
+	    
+	     <li  class="mb2">
           <a href="/posts/render-image/">Hugo: 画像の遅延読込み(Lazy Loading)</a>
         </li>
 	    
@@ -321,7 +327,15 @@
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/posts/snippet-hascjklanguage/">Hugoで記事のサマリーが全文表示されてしまうときの対処法</a>
+          <a href="/posts/hascjklang/">Hugoで記事のサマリーが全文表示されてしまうときの対処法</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/amazon-paapi/">HugoでAmazonアソシエイトのリンクを作成する</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/hugo-books/">Hugo本を読んでみた</a>
         </li>
 	    
     </ul>
@@ -335,7 +349,7 @@
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jam.bchari.com/" >
-    &copy;  初心者Jamstack 2021 
+    &copy;  初心者Jamstack 2024 
   </a>
     <div>
 

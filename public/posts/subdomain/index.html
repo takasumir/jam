@@ -7,10 +7,10 @@
     <title>NetlifyのサイトをGoogle Domainsのサブドメインを使って運用する | 初心者Jamstack</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="Netlifyは簡単に静的サイトを構築できる便利なサービスです。流行りのJamstackでブログを運用できたらと思いこのサイトを作りました。">
-    <meta name="generator" content="Hugo 0.91.0" />
+    <meta name="generator" content="Hugo 0.113.0">
     
     
-      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
     
 
     
@@ -38,7 +38,6 @@
 <meta property="og:url" content="https://jam.bchari.com/posts/subdomain/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-09-06T12:33:04+09:00" />
 <meta property="article:modified_time" content="2021-09-06T12:33:04+09:00" />
-
 <meta itemprop="name" content="NetlifyのサイトをGoogle Domainsのサブドメインを使って運用する">
 <meta itemprop="description" content="Netlifyは簡単に静的サイトを構築できる便利なサービスです。流行りのJamstackでブログを運用できたらと思いこのサイトを作りました。"><meta itemprop="datePublished" content="2021-09-06T12:33:04+09:00" />
 <meta itemprop="dateModified" content="2021-09-06T12:33:04+09:00" />
@@ -47,10 +46,13 @@
 <meta name="twitter:title" content="NetlifyのサイトをGoogle Domainsのサブドメインを使って運用する"/>
 <meta name="twitter:description" content="Netlifyは簡単に静的サイトを構築できる便利なサービスです。流行りのJamstackでブログを運用できたらと思いこのサイトを作りました。"/>
 
-	
+      
+    
+      
+      
   </head>
 
-  <body class="ma0 avenir bg-near-white">
+  <body class="ma0 avenir bg-near-white production">
 
     
    
@@ -386,9 +388,9 @@
 </p>
 <h2 id="hugoのconfigtomlの設定">Hugoのconfig.tomlの設定</h2>
 <p>Hugoのサイト設定ファイル、config.tomlのbaseURLの設定を変更します。変更前は、下記のようにnetlifyのドメインになっています。</p>
-<pre tabindex="0"><code>baseURL = &quot;https://jamblog.netlify.app/&quot;
+<pre tabindex="0"><code>baseURL = &#34;https://jamblog.netlify.app/&#34;
 </code></pre><p>これを先程作ったjam.bchari.comに書き換えます。</p>
-<pre tabindex="0"><code>baseURL = &quot;https://jam.bchari.com/&quot;
+<pre tabindex="0"><code>baseURL = &#34;https://jam.bchari.com/&#34;
 </code></pre><h2 id="ビルドして確認">ビルドして確認</h2>
 <p>config.tomlを書き換えたらローカルのHugoでサイトを作り確認後、gitへpushします。</p>
 <p>$ hugo
@@ -465,6 +467,10 @@ $ git push</p>
         </li>
 	    
 	     <li  class="mb2">
+          <a href="/posts/render-image-2/">Hugo: imgタグにwidth, height属性を追加</a>
+        </li>
+	    
+	     <li  class="mb2">
           <a href="/posts/render-image/">Hugo: 画像の遅延読込み(Lazy Loading)</a>
         </li>
 	    
@@ -477,7 +483,15 @@ $ git push</p>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/posts/snippet-hascjklanguage/">Hugoで記事のサマリーが全文表示されてしまうときの対処法</a>
+          <a href="/posts/hascjklang/">Hugoで記事のサマリーが全文表示されてしまうときの対処法</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/amazon-paapi/">HugoでAmazonアソシエイトのリンクを作成する</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/hugo-books/">Hugo本を読んでみた</a>
         </li>
 	    
     </ul>
@@ -491,7 +505,7 @@ $ git push</p>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jam.bchari.com/" >
-    &copy;  初心者Jamstack 2021 
+    &copy;  初心者Jamstack 2024 
   </a>
     <div>
 
