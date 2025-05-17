@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Amazonアソシエイト on 初心者Jamstack</title>
-    <link>https://jam.bchari.com/tags/amazon%E3%82%A2%E3%82%BD%E3%82%B7%E3%82%A8%E3%82%A4%E3%83%88/</link>
+    <link>http://localhost:1313/tags/amazon%E3%82%A2%E3%82%BD%E3%82%B7%E3%82%A8%E3%82%A4%E3%83%88/</link>
     <description>Recent content in Amazonアソシエイト on 初心者Jamstack</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 23 Feb 2024 22:09:46 +0900</lastBuildDate><atom:link href="https://jam.bchari.com/tags/amazon%E3%82%A2%E3%82%BD%E3%82%B7%E3%82%A8%E3%82%A4%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Feb 2024 22:09:46 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/amazon%E3%82%A2%E3%82%BD%E3%82%B7%E3%82%A8%E3%82%A4%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HugoでAmazonアソシエイトのリンクを作成する</title>
-      <link>https://jam.bchari.com/posts/amazon-paapi/</link>
+      <link>http://localhost:1313/posts/amazon-paapi/</link>
       <pubDate>Fri, 23 Feb 2024 22:09:46 +0900</pubDate>
-      
-      <guid>https://jam.bchari.com/posts/amazon-paapi/</guid>
-      <description>Hugoで作ったサイトにAmazonアソシエイトの広告を設置する方法をまとめました。 前提条件 このブログはNetlifyにデプロイしているので</description>
+      <guid>http://localhost:1313/posts/amazon-paapi/</guid>
+      <description>&lt;p&gt;Hugoで作ったサイトにAmazonアソシエイトの広告を設置する方法をまとめました。&lt;/p&gt;&#xA;&lt;h2 id=&#34;前提条件&#34;&gt;前提条件&lt;/h2&gt;&#xA;&lt;p&gt;このブログはNetlifyにデプロイしているのでその前提で以下解説します。Netlify functionsはいわゆるFaaSというもので、他のサイトから呼び出してもかまわないのでそのあたりは応用が効くと思います。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

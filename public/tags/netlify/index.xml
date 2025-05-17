@@ -2,46 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Netlify on 初心者Jamstack</title>
-    <link>https://jam.bchari.com/tags/netlify/</link>
+    <link>http://localhost:1313/tags/netlify/</link>
     <description>Recent content in Netlify on 初心者Jamstack</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 06 Sep 2021 12:33:04 +0900</lastBuildDate><atom:link href="https://jam.bchari.com/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Sep 2021 12:33:04 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NetlifyのサイトをGoogle Domainsのサブドメインを使って運用する</title>
-      <link>https://jam.bchari.com/posts/subdomain/</link>
+      <link>http://localhost:1313/posts/subdomain/</link>
       <pubDate>Mon, 06 Sep 2021 12:33:04 +0900</pubDate>
-      
-      <guid>https://jam.bchari.com/posts/subdomain/</guid>
-      <description>Netlifyは簡単に静的サイトを構築できる便利なサービスです。流行りのJamstackでブログを運用できたらと思いこのサイトを作りました。</description>
+      <guid>http://localhost:1313/posts/subdomain/</guid>
+      <description>&lt;p&gt;Netlifyは簡単に静的サイトを構築できる便利なサービスです。流行りのJamstackでブログを運用できたらと思いこのサイトを作りました。&lt;/p&gt;&#xA;&lt;p&gt;一通りHugo, Githubの設定をして記事を書けるようになりましたが、ドメインが &amp;ldquo;jamblog.netlify.app&amp;rdquo; です。これはこれでシンプルなので悪くないと思っていましたがやはり独自ドメインで運用したいもの。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hugo&#43;NetlifyでJamstackブログの作り方 (3) Netlifyでホスティング</title>
-      <link>https://jam.bchari.com/posts/quick-start-3/</link>
+      <link>http://localhost:1313/posts/quick-start-3/</link>
       <pubDate>Sun, 16 May 2021 20:25:53 +0900</pubDate>
-      
-      <guid>https://jam.bchari.com/posts/quick-start-3/</guid>
-      <description>Hugoでブログ記事を作成しGitHubへアップロードしました。最後にNetlifyでブログをホスティングします。 記事をドラフト(draft</description>
+      <guid>http://localhost:1313/posts/quick-start-3/</guid>
+      <description>&lt;p&gt;Hugoでブログ記事を作成しGitHubへアップロードしました。最後にNetlifyでブログをホスティングします。&lt;/p&gt;&#xA;&lt;h2 id=&#34;記事をドラフトdraftから正式版にする&#34;&gt;記事をドラフト(draft)から正式版にする&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../quick-start/&#34;&gt;Hugo+NetlifyでJamstackブログの作り方 (1)事前準備&lt;/a&gt;で記事を作成しましたが、&lt;code&gt;quick-start.md&lt;/code&gt;の最初の数行、ヘッダー行(fromt matter というみたいです)に&lt;code&gt;draft: true&lt;/code&gt;と書かれた行があります。&lt;code&gt;true&lt;/code&gt;だとドラフト状態なのでHugoで-Dオプションを付けないとHTMLファイルが作成されません。この行を&lt;code&gt;draft: false&lt;/code&gt;に変更します。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hugo&#43;NetlifyでJamstackブログの作り方 (2) GitHubへアップロード</title>
-      <link>https://jam.bchari.com/posts/quick-start-2/</link>
+      <link>http://localhost:1313/posts/quick-start-2/</link>
       <pubDate>Sat, 15 May 2021 09:47:28 +0900</pubDate>
-      
-      <guid>https://jam.bchari.com/posts/quick-start-2/</guid>
-      <description>Hugo+NetlifyでJamstackブログの作り方 (1)事前準備でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。</description>
+      <guid>http://localhost:1313/posts/quick-start-2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/quick-start/&#34;&gt;Hugo+NetlifyでJamstackブログの作り方 (1)事前準備&lt;/a&gt;でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。次はGitHubへのアップロードです。&lt;/p&gt;&#xA;&lt;h2 id=&#34;githubのアカウント登録&#34;&gt;GitHubのアカウント登録&lt;/h2&gt;&#xA;&lt;p&gt;GitHubのアカウントを持っていない場合は、&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;へアクセスして右上のボタンからSign upします。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hugo&#43;NetlifyでJamstackブログの作り方 (1)事前準備</title>
-      <link>https://jam.bchari.com/posts/quick-start/</link>
+      <link>http://localhost:1313/posts/quick-start/</link>
       <pubDate>Tue, 04 May 2021 20:09:18 +0900</pubDate>
-      
-      <guid>https://jam.bchari.com/posts/quick-start/</guid>
-      <description>今までGoogleのサービス、Bloggerでブログを書いていましたがカスタマイズに制約を感じ、レスポンスも遅くGoogleのUX指標Cor</description>
+      <guid>http://localhost:1313/posts/quick-start/</guid>
+      <description>&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;img class=&#34;h-auto&#34;&#xA;  src=&#34;http://localhost:1313/image/Jamstack_Logo_Original.svg&#34;&#xA;  alt=&#34;Jamstack logo&#34;&#xA;  loading=&#34;lazy&#34;&#xA;&#xA;/&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;今までGoogleのサービス、Bloggerでブログを書いていましたがカスタマイズに制約を感じ、レスポンスも遅くGoogleのUX指標Core Web Vitalはかなり低い状態でした。Blogger自体もここ数年ほとんど更新されていなくてBloggerのテンプレート書式を覚えてガリガリカスタマイズするのも何だかなあと思っていました。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

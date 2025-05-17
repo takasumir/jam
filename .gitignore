@@ -1,0 +1,9 @@
+# Local Netlify folder
+.netlify
+
+# node
+# node_modules
+
+# Temp files
+.\#*
+*~

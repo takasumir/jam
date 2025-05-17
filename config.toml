@@ -1,8 +1,15 @@
 baseURL = "https://jam.bchari.com/"
 languageCode = "ja"
 title = "初心者Jamstack"
-theme = "ananke"
+# theme = "ananke"
 hasCJKLanguage = true
+
+[module]
+[[module.imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
 
 [params]
 background_color_class = "bg-black"

@@ -1,35 +1,49 @@
-<div class="paapi5-pa-ad-unit" data-asin="{{.Get 0}}">
-  <div class="paapi5-pa-product-container">
-    <div class="paapi5-pa-product-image">
-      <div class="paapi5-pa-product-image-wrapper">
-        <a class="paapi5-pa-product-image-link" href="" title="" target="_blank"
-          ><img
-            class="paapi5-pa-product-image-source"
-            src=""
-            alt=""
-            width=""
-            height=""
-        /></a>
+{{- range .Params -}}
+  {{- $asin := . -}}
+  {{- range where site.Data.pa.items ".ASIN" $asin -}}
+    <div class="paapi5-pa-ad-unit" data-asin="{{ .ASIN }}">
+      <div class="paapi5-pa-product-container">
+        <div class="paapi5-pa-product-image">
+          <div class="paapi5-pa-product-image-wrapper">
+            <a
+              class="paapi5-pa-product-image-link"
+              href="{{ .DetailPageURL }}"
+              title="{{ .ItemInfo.Title.DisplayValue }}"
+              target="_blank"
+              ><img
+                class="paapi5-pa-product-image-source"
+                src="{{ .Images.Primary.Medium.URL }}"
+                alt="Product image"
+                width="160"
+                height="160"
+            /></a>
+          </div>
+        </div>
+        <div class="paapi5-pa-product-details">
+          <div class="paapi5-pa-product-title">
+            <a
+              class="paap5-pa-product-title-link"
+              href="{{ .DetailPageURL }}"
+              title="{{ .ItemInfo.Title.DisplayValue }}"
+              target="_blank"
+              >{{ .ItemInfo.Title.DisplayValue }}</a
+            >
+          </div>
+          <div class="paapi5-pa-product-list-price">
+            <span class="paapi5-pa-product-list-price-value"></span>
+          </div>
+          <div class="paapi5-pa-product-prime-icon">
+            <span class="icon-prime-all"></span
+            ><a
+              class="paap5-pa-product-title-link"
+              href="{{ .DetailPageURL }}"
+              title="{{ .ItemInfo.Title.DisplayValue }}"
+              target="_blank"
+              ><span class="buy-on-amazon">Amazonで見る</span></a
+            >
+          </div>
+        </div>
       </div>
     </div>
-    <div class="paapi5-pa-product-details">
-      <div class="paapi5-pa-product-title">
-        <a
-          class="paap5-pa-product-title-link"
-          href=""
-          title=""
-          target="_blank"
-        ></a>
-      </div>
-      <div class="paapi5-pa-product-list-price">
-        <span class="paapi5-pa-product-list-price-value"></span>
-      </div>
-      <div class="paapi5-pa-product-prime-icon">
-        <span class="icon-prime-all"></span
-        ><a class="paap5-pa-product-title-link" href="" title="" target="_blank"
-          ><span class="buy-on-amazon">Amazonで買う</span></a
-        >
-      </div>
-    </div>
-  </div>
-</div>
+  {{- end -}}
+{{- end -}}

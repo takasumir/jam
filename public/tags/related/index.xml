@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Related on 初心者Jamstack</title>
-    <link>https://jam.bchari.com/tags/related/</link>
+    <link>http://localhost:1313/tags/related/</link>
     <description>Recent content in Related on 初心者Jamstack</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 22 May 2021 13:46:17 +0900</lastBuildDate><atom:link href="https://jam.bchari.com/tags/related/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 May 2021 13:46:17 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/related/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugoで関連記事を表示する</title>
-      <link>https://jam.bchari.com/posts/related/</link>
+      <link>http://localhost:1313/posts/related/</link>
       <pubDate>Sat, 22 May 2021 13:46:17 +0900</pubDate>
-      
-      <guid>https://jam.bchari.com/posts/related/</guid>
-      <description>Hugoでブログを作ろうと奮闘中です。一通り設定を行いNetlifyでブログを公開できましたが、今回は関連記事の表示について書いてみたいと思</description>
+      <guid>http://localhost:1313/posts/related/</guid>
+      <description>&lt;p&gt;Hugoでブログを作ろうと奮闘中です。一通り設定を行いNetlifyでブログを公開できましたが、今回は関連記事の表示について書いてみたいと思います。テーマはanankeを使っています。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

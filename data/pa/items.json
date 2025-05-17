@@ -1,0 +1,68 @@
+[
+  {
+    "ASIN": "1680507265",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/1680507265?tag=takasumir-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+      "Primary": {
+        "Medium": {
+          "URL": "https://m.media-amazon.com/images/I/51YUzrKOvpL._SL160_.jpg",
+          "Height": 160,
+          "Width": 133
+        }
+      }
+    },
+    "ItemInfo": {
+      "Title": {
+        "DisplayValue": "Build Websites with Hugo: Fast Web Development with Markdown",
+        "Label": "Title",
+        "Locale": "ja_JP"
+      }
+    },
+    "Offers": {
+      "Listings": [
+        {
+          "Id": "xiBRm04V%2Bvc0uWpuXckB4pbXOh7JLxOoJ5F%2BNRCzi01vAAb%2BNVhYeEfvs9txqH6rkePwOODe6T433V387YKDCKSL352XmrrJ7qOYXs0cGexM5eiUBeiBSzNNDFKpE25vqwO9JLidRBUsRttDlgxWYhwgH0EuKRJAJlVKxrxX%2FmujzgKpqDSirATDCpD%2F8dKh",
+          "Price": {
+            "Amount": 4267,
+            "Currency": "JPY",
+            "DisplayAmount": "￥4,267"
+          },
+          "ViolatesMAP": false
+        }
+      ]
+    }
+  },
+  {
+    "ASIN": "B09WPQQWQT",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B09WPQQWQT?tag=takasumir-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+      "Primary": {
+        "Medium": {
+          "URL": "https://m.media-amazon.com/images/I/41NJsILaD5L._SL160_.jpg",
+          "Height": 160,
+          "Width": 127
+        }
+      }
+    },
+    "ItemInfo": {
+      "Title": {
+        "DisplayValue": "Hugo in Action (English Edition)",
+        "Label": "Title",
+        "Locale": "ja_JP"
+      }
+    },
+    "Offers": {
+      "Listings": [
+        {
+          "Id": "UO3TS%2BVSfr78YqGsj8%2BgAAUZw%2BEJEkdmUGLvYYumlCVf9f93mzQk0kWKQyWNWA784uquBSBLcpVzryihNE%2B%2BkcUyQ1JiYLZnGRENztvKP%2FCQbhljoImVWs19JSYslu8sNfk8PgEjarSuKSTTYI%2F3GQfW2PutdGiv25vKp2C84OfbEg%2FEZC2knw%3D%3D",
+          "Price": {
+            "Amount": 7440,
+            "Currency": "JPY",
+            "DisplayAmount": "￥7,440"
+          },
+          "ViolatesMAP": false
+        }
+      ]
+    }
+  }
+]

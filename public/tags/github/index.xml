@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GitHub on 初心者Jamstack</title>
-    <link>https://jam.bchari.com/tags/github/</link>
+    <link>http://localhost:1313/tags/github/</link>
     <description>Recent content in GitHub on 初心者Jamstack</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 15 May 2021 09:47:28 +0900</lastBuildDate><atom:link href="https://jam.bchari.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 May 2021 09:47:28 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo&#43;NetlifyでJamstackブログの作り方 (2) GitHubへアップロード</title>
-      <link>https://jam.bchari.com/posts/quick-start-2/</link>
+      <link>http://localhost:1313/posts/quick-start-2/</link>
       <pubDate>Sat, 15 May 2021 09:47:28 +0900</pubDate>
-      
-      <guid>https://jam.bchari.com/posts/quick-start-2/</guid>
-      <description>Hugo+NetlifyでJamstackブログの作り方 (1)事前準備でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。</description>
+      <guid>http://localhost:1313/posts/quick-start-2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/quick-start/&#34;&gt;Hugo+NetlifyでJamstackブログの作り方 (1)事前準備&lt;/a&gt;でHugoでドラフト記事を作成し、ローカルサーバーで表示してみました。次はGitHubへのアップロードです。&lt;/p&gt;&#xA;&lt;h2 id=&#34;githubのアカウント登録&#34;&gt;GitHubのアカウント登録&lt;/h2&gt;&#xA;&lt;p&gt;GitHubのアカウントを持っていない場合は、&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;へアクセスして右上のボタンからSign upします。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

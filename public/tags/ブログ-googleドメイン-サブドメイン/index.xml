@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ブログ, Googleドメイン, サブドメイン on 初心者Jamstack</title>
-    <link>https://jam.bchari.com/tags/%E3%83%96%E3%83%AD%E3%82%B0-google%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3-%E3%82%B5%E3%83%96%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3/</link>
+    <link>http://localhost:1313/tags/%E3%83%96%E3%83%AD%E3%82%B0-google%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3-%E3%82%B5%E3%83%96%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3/</link>
     <description>Recent content in ブログ, Googleドメイン, サブドメイン on 初心者Jamstack</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 06 Sep 2021 12:33:04 +0900</lastBuildDate><atom:link href="https://jam.bchari.com/tags/%E3%83%96%E3%83%AD%E3%82%B0-google%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3-%E3%82%B5%E3%83%96%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Sep 2021 12:33:04 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E3%83%96%E3%83%AD%E3%82%B0-google%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3-%E3%82%B5%E3%83%96%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NetlifyのサイトをGoogle Domainsのサブドメインを使って運用する</title>
-      <link>https://jam.bchari.com/posts/subdomain/</link>
+      <link>http://localhost:1313/posts/subdomain/</link>
       <pubDate>Mon, 06 Sep 2021 12:33:04 +0900</pubDate>
-      
-      <guid>https://jam.bchari.com/posts/subdomain/</guid>
-      <description>Netlifyは簡単に静的サイトを構築できる便利なサービスです。流行りのJamstackでブログを運用できたらと思いこのサイトを作りました。</description>
+      <guid>http://localhost:1313/posts/subdomain/</guid>
+      <description>&lt;p&gt;Netlifyは簡単に静的サイトを構築できる便利なサービスです。流行りのJamstackでブログを運用できたらと思いこのサイトを作りました。&lt;/p&gt;&#xA;&lt;p&gt;一通りHugo, Githubの設定をして記事を書けるようになりましたが、ドメインが &amp;ldquo;jamblog.netlify.app&amp;rdquo; です。これはこれでシンプルなので悪くないと思っていましたがやはり独自ドメインで運用したいもの。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
