@@ -4,6 +4,9 @@ title = "初心者Jamstack"
 # theme = "ananke"
 hasCJKLanguage = true
 
+[pagination]
+  pagerSize = 10
+
 [module]
 [[module.imports]]
 disable = false
@@ -12,12 +15,13 @@ ignoreImports = false
 path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
 
 [params]
-background_color_class = "bg-black"
-featured_image = "/images/gohugo-default-sample-hero-image.jpg"
-Description = "ブログ初心者が最近流行りのJamstackでブログを作ります！Hugo, Git, Netlifyの登録、設定、使い方などについて書いていきます。"
-body_classes = "avenir bg-near-white"
-post_content_classes = "avenir bg-near-white"
-custom_css = ["css/custom.css"]
+  background_color_class = "bg-black"
+  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  Description = "ブログ初心者が最近流行りのJamstackでブログを作ります！Hugo, Git, Netlifyの登録、設定、使い方などについて書いていきます。"
+  body_classes = "avenir bg-near-white"
+  post_content_classes = "avenir bg-near-white"
+  custom_css = ["css/custom.css"]
+  recent_posts_number = 10
 
 [related]
   includeNewer = true
